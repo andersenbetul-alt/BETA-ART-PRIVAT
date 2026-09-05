@@ -38,6 +38,19 @@ taşıma kararlarına dayanak olması (bkz.
 - Tam konsept belgesi (23 bölüm, TR):
   `teslim/NAVIAR-CARE_SRC03_Tam-Konsept.html`.
 
+## v2.4 son teslim kaydı (05.09.2026 gece)
+
+ChatGPT hattı inceleme sürümünü **NAVIAR-CARE-001-WEB-01 v2.4.0** olarak
+kapattı; teslim kaydı `teslim/NAVIAR-CARE-001-WEB-01_DOC-010_FINAL-
+TESLIM_v2.4.html` (yükleme kopyasıyla bayt bayt aynı). Özü: 36 otomatik
+test geçti (30 sunucu/SQLite + 6 sentetik DOM akışı); tarayıcı/telefon
+kontrolleri ortam hatasıyla TAMAMLANAMADI; SERVICE_OPEN /
+PAYMENTS_ENABLED / LAUNCH_REVIEW_COMPLETE false — gerçek hizmet, ödeme
+ve e-posta kapalı. Açılış girdileri (işletme kimliği, bölge, e-posta,
+alan adı, sağlayıcı hesapları) işletme sahibinden bekleniyor.
+`KAYNAK-KOD_v2.4.zip` bu oturuma YÜKLENMEDİ — buradaki kaynak ağacı
+hâlâ sürüm 5 / 255ee9b2 temelidir, v2.4 koduyla eş değildir.
+
 ## Adlandırma notları
 
 - Dosyalar yükleme adlarındaki hash önekleri atılarak KODU-CALISTIRMA
