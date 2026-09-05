@@ -51,6 +51,17 @@ alan adı, sağlayıcı hesapları) işletme sahibinden bekleniyor.
 `KAYNAK-KOD_v2.4.zip` bu oturuma YÜKLENMEDİ — buradaki kaynak ağacı
 hâlâ sürüm 5 / 255ee9b2 temelidir, v2.4 koduyla eş değildir.
 
+## Platform-studio çalışma kaydı (05.09.2026 gece)
+
+`teslim/NAVIAR-CARE_Web-Design-Platform-Studio_2026-09-05.md`: SRC-03
+hattının platform karşılaştırması (Figma/Wix/Webflow/Framer ↔ mevcut
+özel uygulama; özel uygulama seçildi, taşıma yok) + sürüm 3 ve 4 kayıt
+tabloları. Sürüm 4 yayın kanıtı: succeeded 15:35 UTC, kaynak revizyonu
+`e5a5708994119b8c40d557132598b8c09e97bbe7`, site sürümü 4 — yani
+buradaki kod arşivi (inceleme sürümü 5 tabanı, 255ee9b2) ile sitenin
+sürüm numaraları AYRI sayaçlardır; belge kendi içinde açıklıyor.
+DOC-010 v2.4 ile birlikte okunmalı.
+
 ## Adlandırma notları
 
 - Dosyalar yükleme adlarındaki hash önekleri atılarak KODU-CALISTIRMA
