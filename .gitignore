@@ -10,3 +10,6 @@ engine/data/
 # Üretilen dağıtım klasörleri — marka-tescil.mjs ve marka-paket.mjs üretiyor
 tescil/
 paket/
+
+# NAVIAR CARE 2 kaynak sürümü: üretilen çıktı
+naviar/care2-src/dist/

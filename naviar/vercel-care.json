@@ -1,5 +1,5 @@
 {
-  "buildCommand": "git clone --depth 1 --branch claude/naviar-care-2-lw83yy https://github.com/andersenbetul-alt/BETA-ART-PRIVAT.git _repo && mkdir -p dist && cp -r _repo/naviar/care2/. dist/ && rm -rf dist/.claude",
+  "buildCommand": "git clone --depth 1 --branch claude/naviar-care-2-lw83yy https://github.com/andersenbetul-alt/BETA-ART-PRIVAT.git _repo && cd _repo/naviar/care2-src && python3 build_static.py && cd ../../.. && rm -rf dist && cp -r _repo/naviar/care2-src/dist dist",
   "outputDirectory": "dist",
   "framework": null
 }

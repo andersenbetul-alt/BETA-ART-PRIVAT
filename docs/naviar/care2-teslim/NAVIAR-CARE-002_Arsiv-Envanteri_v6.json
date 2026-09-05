@@ -1,0 +1,132 @@
+{
+  "project_code": "NAVIAR-CARE-002",
+  "project_name": "NAVIAR CARE 2",
+  "archive_date": "2026-09-05",
+  "delivery_version": "6.0",
+  "document_count": 17,
+  "service_status": "Konsept ve teknik demo; gerçek sağlık hizmeti açık değil.",
+  "files": [
+    {
+      "file_name": "NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v6.html",
+      "size_bytes": 32267,
+      "sha256": "011d2b789b4969164b9a7debb54f0ead848b14618ae4cded092ae2e793d5ee2d",
+      "status": "Güncel teslim · v6",
+      "current": true
+    },
+    {
+      "file_name": "NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v6.md",
+      "size_bytes": 26602,
+      "sha256": "6b1b92f7115d72d715f6dc00c01e5ad52753ddc5eebb11974dc8df35c1e7ae5a",
+      "status": "Güncel teslim · v6",
+      "current": true
+    },
+    {
+      "file_name": "NAVIAR-CARE-002_Web-Sitesi-Metinleri_NO-EN-TR_v6.html",
+      "size_bytes": 91456,
+      "sha256": "c2d70d70e310e5d216ab74851a6d5cc397617f3b8635f8cf86229b72ae07d057",
+      "status": "Güncel teslim · v6",
+      "current": true
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-DOS-001_Konsept-ve-Gelistirme_v1.0.pdf",
+      "size_bytes": 122177,
+      "sha256": "9af37198cc18f92299e6f5f86d95fa9a3cea7e058e65e6e6916d2320e7ab3c8f",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-DOS-002_Isletim-ve-Yayin_v3.0.pdf",
+      "size_bytes": 89620,
+      "sha256": "30c758a67b578ba1d6a6583ffb35d511eb8ce176d9775beb7334918e99c9334e",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-REG-001_Arsiv-Kaydi_v1.3.json",
+      "size_bytes": 13344,
+      "sha256": "5d636b7303fa308586a9e682f54b64189801705dff5c26c76cea827fd2850a9a",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-REV-001_Inceleme-ve-Duzeltmeler_v1.0.md",
+      "size_bytes": 25278,
+      "sha256": "d647648a9cfaef852d95954f2e62604d4dd8d3e52ab60413c1d94cec28982f86",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-REV-002_Tasarim-Inceleme_v4.html",
+      "size_bytes": 982300,
+      "sha256": "24554102be6b985f259e0114bcd02bccf83d7c0514ffc5861b752cc0669f5944",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-SRC-001_Ana-Sayfa_Kullanici-Kopyasi.md",
+      "size_bytes": 13465,
+      "sha256": "1f0762011a6929a3a5ed39411d142430ebdc0cf7744b2368a18596b8e4ba43dd",
+      "status": "Kullanıcının paylaştığı kaynak metin",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-SRC-002_Doktor-Rezervasyon_Kullanici-Kopyasi.md",
+      "size_bytes": 19806,
+      "sha256": "e7e943840a226842df52d3239a91430e5cc1290e2d6f579b420ac06d4a065bf6",
+      "status": "Kullanıcının paylaştığı kaynak metin",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-SRC-003_Diller_Ikinci-Gonderim.md",
+      "size_bytes": 27541,
+      "sha256": "b8ccc9726c21c295d527a936bda84e9431bdc0874e35b6431f6396875348f301",
+      "status": "Kullanıcının paylaştığı kaynak metin",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-SRC-003_Diller_Kullanici-Kopyasi.md",
+      "size_bytes": 27541,
+      "sha256": "b8ccc9726c21c295d527a936bda84e9431bdc0874e35b6431f6396875348f301",
+      "status": "Kullanıcının paylaştığı kaynak metin",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002-Tasarim-v4.jpg",
+      "size_bytes": 114035,
+      "sha256": "b78fdd7da7e74f018b3763e735b149a660c41f47a55853c5c0cad1882dccd0e1",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002_Platform-Karari-ve-Test_v1.0.html",
+      "size_bytes": 16863,
+      "sha256": "4a785111e9b91c641a1b2d57db3668d80c329078a1bc988309d1530e695d7b11",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002_Studio-Demo_v1.0.html",
+      "size_bytes": 158174,
+      "sha256": "a84f6509b9b30ce3b79f246afea75c6bfe753ca677e1c640ed023aac237f5d3f",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-002_Teslim-Kaydi_v5.0.html",
+      "size_bytes": 10006,
+      "sha256": "3d20532568eee22ee597ac5d56dc666d3ff247f2712380b524322ba8eae2194b",
+      "status": "Geçmiş kayıt · özgün dosya",
+      "current": false
+    },
+    {
+      "file_name": "NAVIAR-CARE-2-demo.html",
+      "size_bytes": 21769,
+      "sha256": "31edf417a62aad3cd594ca8d4426a8181fe9ce135e647c1e256d047958a4a2ea",
+      "status": "Geçmiş demo tasarımı · ayrı klasörden eklendi",
+      "current": false
+    }
+  ],
+  "archive_revision": 2,
+  "scope": "NAVIAR CARE 2 / NAVIAR-CARE-002 projesine ait erişilebilir 17 belge ve tasarım kaydı. Güncel kaynak kodu mevcut web projesinde yönetilir.",
+  "change_note": "Önceki 16 dosya korundu. Ayrı klasörde bulunan NAVIAR-CARE-2-demo.html eklendi."
+}

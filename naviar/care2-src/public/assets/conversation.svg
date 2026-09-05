@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" role="img" aria-label="Illustrasjon">
+<rect width="1000" height="1250" fill="#edf2eb"/>
+<rect x="120" y="880" width="760" height="28" rx="14" fill="#a9bcb2"/>
+<rect x="300" y="690" width="400" height="200" rx="14" fill="#fbfaf6" stroke="#ccd8cf" stroke-width="6"/>
+<rect x="326" y="716" width="348" height="148" rx="8" fill="#133f38"/>
+<circle cx="500" cy="775" r="30" fill="#fbfaf6"/><path d="M450 850c8-32 26-46 50-46s42 14 50 46" fill="#fbfaf6"/>
+<circle cx="760" cy="520" r="52" fill="#fbfaf6" stroke="#a9bcb2" stroke-width="6"/>
+<path d="M690 880c2-118 30-200 70-200s68 82 70 200" fill="#fbfaf6" stroke="#a9bcb2" stroke-width="6"/>
+<path d="M200 420c0-40 30-66 70-66h20c40 0 70 26 70 66v14c0 40-30 66-70 66h-4l-40 36v-40c-26-9-46-35-46-62z" fill="#fbfaf6" stroke="#a9bcb2" stroke-width="6"/>
+<path d="M236 428h108M236 456h72" stroke="#133f38" stroke-width="8" stroke-linecap="round"/>
+</svg>

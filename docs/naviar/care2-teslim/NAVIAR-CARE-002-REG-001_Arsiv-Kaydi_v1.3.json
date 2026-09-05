@@ -1,0 +1,269 @@
+{
+  "project_name": "NAVIAR CARE 2",
+  "project_code": "NAVIAR-CARE-002",
+  "archive_code": "NAVIAR-CARE-002",
+  "code_origin": "Assigned in this session from the user-requested project number 2; no global uniqueness claim.",
+  "document_id": "NAVIAR-CARE-002-REG-001",
+  "version": "1.3",
+  "recorded_at_local": "2026-09-05 Europe/Oslo",
+  "origin_url": "https://beta-art-intelligence-platform-nm0asuxfy.vercel.app/",
+  "origin_access": "Blocked: Vercel team authorization HTTP 403; no source identity confirmed.",
+  "site_url": "https://naviar-care-2.andersen-betul.chatgpt.site",
+  "site_project_id": "appgprj_6a9b4bd16aec819193ca578e66ef7a31",
+  "site_source_commit": "5eede559eb269d67ffb2523fe73fcf1f4b7ed043",
+  "live_medical_service": false,
+  "document_sections": [
+    {
+      "id": "NAVIAR-CARE-002-D001",
+      "title": "Proje kimliği ve arşiv kaydı"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D002",
+      "title": "Kaynak incelemesi ve kanıt sınırı"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D003",
+      "title": "Konsept ve değer önerisi"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D004",
+      "title": "Hasta yolculuğu ve hizmet akışı"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D005",
+      "title": "Operasyon, klinik sorumluluk ve kalite"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D006",
+      "title": "Web tasarımı ve içerik sistemi"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D007",
+      "title": "Teknik yapı, veri ve güvenlik"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D008",
+      "title": "İş modeli ve doğrulama planı"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D009",
+      "title": "Karar kaydı ve sonraki aşamalar"
+    },
+    {
+      "id": "NAVIAR-CARE-002-D010",
+      "title": "Teslim, doğrulama ve kaynakça"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Previous business model - first 160 lines",
+      "path": "/00_WEB_PROJECTS_KONSOLIDE_2026-09-04/05_NAVIAR_CARE/NAVIAR CARE/NAVIAR-CARE-Business-Model-v1.0.md"
+    },
+    {
+      "title": "Original brand asset v0.3",
+      "library_file_id": "libfile_0860b829d3a4819182ff482d954c91a8"
+    },
+    {
+      "title": "Interpreter",
+      "url": "https://www.helsenorge.no/en/health-rights-in-norway/interpreter/"
+    },
+    {
+      "title": "Out of hours care",
+      "url": "https://www.helsenorge.no/en/help-services-in-the-municipalities/out-of-hours-medical-service/"
+    },
+    {
+      "title": "Video consultations",
+      "url": "https://www.helsenorge.no/en/about-services-on-helsenorge/video-consultations-via-Helsenorge/"
+    }
+  ],
+  "documents": [
+    {
+      "filename": "NAVIAR-CARE-002-DOS-001_Konsept-ve-Gelistirme_v1.0.pdf",
+      "sha256": "876d799feedb85ee6052ee2f6d28c94ad080a3c4f48bc3b5078ebc6d7259c672"
+    },
+    {
+      "filename": "NAVIAR-CARE-002-DOS-001_Konsept-ve-Gelistirme_v1.0.md",
+      "sha256": "db8d17dd0ea2c6e10955d5ec4ff1e796e6a7c1e3b7599d754e0f502f1e758d0d"
+    }
+  ],
+  "open_items": [
+    "Original Vercel source access and identity",
+    "Clinical provider and responsible clinician",
+    "Service scope, clinical languages, pricing",
+    "Patient-data architecture and legal review",
+    "Browser/mobile/accessibility review",
+    "Clinical integrations and pilot validation"
+  ],
+  "updated_at_utc": "2026-09-04T23:35:07.293919+00:00",
+  "submitted_urls": [
+    {
+      "reference_id": "NAVIAR-CARE-002-URL-001",
+      "url": "https://beta-art-intelligence-platform-nm0asuxfy.vercel.app/",
+      "role": "Original user-supplied source URL",
+      "project_association": "Recorded under the user-specified project context; actual Vercel project identity and relationship to the other URLs remain unverified",
+      "times_shared_this_conversation": 2,
+      "access_checked_at_utc": "2026-09-04T23:26:23.120812+00:00",
+      "access_check": "Vercel deployment metadata returned HTTP 403: authenticated connection lacks access to the team scope; page content not retrieved"
+    },
+    {
+      "reference_id": "NAVIAR-CARE-002-URL-002",
+      "url": "https://beta-art-intelligence-platform-iwki7au6b.vercel.app/",
+      "role": "Additional URL supplied in the same NAVIAR CARE 2 conversation",
+      "project_association": "Recorded under the user-specified project context; actual Vercel project identity and relationship to the other URLs remain unverified",
+      "times_shared_this_conversation": 1,
+      "access_checked_at_utc": "2026-09-04T23:26:23.120812+00:00",
+      "access_check": "Vercel deployment metadata returned HTTP 403: authenticated connection lacks access to the team scope; page content not retrieved"
+    },
+    {
+      "reference_id": "NAVIAR-CARE-002-URL-003",
+      "url": "https://beta-art-intelligence-platform-q0ji4exdc.vercel.app/",
+      "role": "Additional URL supplied in the same NAVIAR CARE 2 conversation",
+      "project_association": "Recorded under the user-specified project context; actual Vercel project identity and relationship to the other URLs remain unverified",
+      "times_shared_this_conversation": 1,
+      "access_checked_at_utc": "2026-09-04T23:26:23.120812+00:00",
+      "access_check": "Vercel deployment metadata returned HTTP 403: authenticated connection lacks access to the team scope; page content not retrieved"
+    },
+    {
+      "reference_id": "NAVIAR-CARE-002-URL-004",
+      "url": "https://beta-art-intelligence-platform-r4n0kdbhq.vercel.app/",
+      "role": "Additional URL supplied in the same NAVIAR CARE 2 conversation",
+      "project_association": "Recorded under the user-specified project context; actual Vercel project identity and relationship to the other URLs remain unverified",
+      "times_shared_this_conversation": 1,
+      "access_checked_at_utc": "2026-09-04T23:26:23.120812+00:00",
+      "access_check": "Vercel deployment metadata returned HTTP 403: authenticated connection lacks access to the team scope; page content not retrieved"
+    },
+    {
+      "reference_id": "NAVIAR-CARE-002-URL-005",
+      "url": "https://beta-art-intelligence-platform-731x2e9ln.vercel.app/",
+      "role": "Additional URL supplied in the same NAVIAR CARE 2 conversation",
+      "project_association": "Recorded under the user-specified project context; actual Vercel project identity and relationship to the other URLs remain unverified",
+      "times_shared_this_conversation": 1,
+      "access_checked_at_utc": "2026-09-04T23:26:23.120812+00:00",
+      "access_check": "Vercel deployment metadata returned HTTP 403: authenticated connection lacks access to the team scope; page content not retrieved"
+    },
+    {
+      "reference_id": "NAVIAR-CARE-002-URL-006",
+      "url": "https://beta-art-intelligence-platform-lxwdy9clh.vercel.app/",
+      "role": "Additional URL supplied in the same NAVIAR CARE 2 conversation",
+      "project_association": "Recorded under the user-specified project context; actual Vercel project identity and relationship to the other URLs remain unverified",
+      "times_shared_this_conversation": 1,
+      "access_checked_at_utc": "2026-09-04T23:27:32.264543+00:00",
+      "access_check": "Vercel deployment metadata returned HTTP 403: authenticated connection lacks access to the team scope; page content not retrieved"
+    },
+    {
+      "reference_id": "NAVIAR-CARE-002-URL-007",
+      "url": "https://beta-art-intelligence-platform-kliduwohq.vercel.app/",
+      "role": "Additional URL supplied in the same NAVIAR CARE 2 conversation",
+      "project_association": "Recorded under the user-specified project context; actual Vercel project identity and relationship to the other URLs remain unverified",
+      "times_shared_this_conversation": 2,
+      "access_checked_at_utc": "2026-09-04T23:27:32.264543+00:00",
+      "access_check": "Vercel deployment metadata returned HTTP 403: authenticated connection lacks access to the team scope; page content not retrieved"
+    }
+  ],
+  "url_relationship_status": "Not established. Similar hostnames and matching user-supplied page titles do not establish identical content, project ID, chronological order, or deployment lineage. URL-001 and URL-007 were repeated and are each listed only once.",
+  "website_changed_in_this_revision": false,
+  "concept_documents_version": "DOS-001 remains v1.0; new content review REV-001 v1.0 supplements it.",
+  "revision_log": [
+    {
+      "version": "1.1",
+      "change": "Recorded five distinct user-supplied URLs and the repeat of URL-001; retained the original URL and existing project code; documented current access limitations. No new project number assigned, no source files merged, and no website updated.",
+      "evidence": "User messages and Vercel deployment metadata responses in this conversation."
+    },
+    {
+      "version": "1.2",
+      "change": "Added URL-006 and URL-007 and recorded the repeated submission of URL-007. Seven unique URLs and nine user submissions in total. The links remain separate source references; website identity, version order, and content equivalence are unverified.",
+      "evidence": "Additional user messages and HTTP 403 Vercel deployment metadata responses in this conversation."
+    },
+    {
+      "version": "1.3",
+      "change": "Incorporated four uploaded files (three distinct contents) and inline excerpts for triage, clinician application and About. Recorded About demo disclosure, content counts, twelve language discrepancies and review REV-001. Existing source files were organised without changing their contents. No live website modified.",
+      "evidence": "User-provided files, inline text, exact byte comparison, structured content counts and cited official guidance."
+    }
+  ],
+  "unique_submitted_url_count": 7,
+  "next_verification": "Re-authenticate Vercel with access to andersenbetul-9635s-projects. Then compare project IDs, deployment IDs, source commits, timestamps, and actual page contents before selecting a canonical version or deciding whether separate web projects are needed.",
+  "standalone_url_submission_count": 9,
+  "submission_count_note": "Counts the nine standalone deployment-link messages only; subsequent repeated navigation links within page extracts and attachments are not counted as deployment submissions.",
+  "received_attachments": [
+    {
+      "source_id": "NAVIAR-CARE-002-SRC-001",
+      "title": "Ana-Sayfa",
+      "original_filename": "Limte inn markdown(4).md",
+      "library_file_id": "libfile_42e60ac5006c8191aafbf31b3d7d57bc",
+      "sha256": "1f0762011a6929a3a5ed39411d142430ebdc0cf7744b2368a18596b8e4ba43dd",
+      "duplicate_of": null
+    },
+    {
+      "source_id": "NAVIAR-CARE-002-SRC-002",
+      "title": "Doktor-Rezervasyon",
+      "original_filename": "Limte inn markdown(5).md",
+      "library_file_id": "libfile_71f8ee849c208191907ee723bd85c6ad",
+      "sha256": "e7e943840a226842df52d3239a91430e5cc1290e2d6f579b420ac06d4a065bf6",
+      "duplicate_of": null
+    },
+    {
+      "source_id": "NAVIAR-CARE-002-SRC-003",
+      "title": "Diller",
+      "original_filename": "Limte inn markdown(6).md",
+      "library_file_id": "libfile_432ed91e57688191a1133a1a12fd1d75",
+      "sha256": "b8ccc9726c21c295d527a936bda84e9431bdc0874e35b6431f6396875348f301",
+      "duplicate_of": null
+    },
+    {
+      "source_id": "NAVIAR-CARE-002-SRC-003",
+      "title": "Diller-Ikinci-Gonderim",
+      "original_filename": "Limte inn markdown(7).md",
+      "library_file_id": "libfile_4a3a240da9b48191b5191e430e7c9ce6",
+      "sha256": "b8ccc9726c21c295d527a936bda84e9431bdc0874e35b6431f6396875348f301",
+      "duplicate_of": "NAVIAR-CARE-002-SRC-003"
+    }
+  ],
+  "inline_page_sources": [
+    {
+      "source_id": "NAVIAR-CARE-002-SRC-004",
+      "page": "triage.html",
+      "evidence": "User-pasted text for the first step only; selected quotations preserved in REV-001"
+    },
+    {
+      "source_id": "NAVIAR-CARE-002-SRC-005",
+      "page": "join.html",
+      "evidence": "User-pasted application-page text; selected quotations preserved in REV-001"
+    },
+    {
+      "source_id": "NAVIAR-CARE-002-SRC-006",
+      "page": "about.html",
+      "evidence": "User-pasted About text received twice; body contains explicit sample-data/demo statement; footer truncated. Selected quotations preserved in REV-001"
+    }
+  ],
+  "source_content_status": {
+    "deployment_reference": "NAVIAR-CARE-002-URL-007",
+    "page_texts_reviewed": [
+      "index.html",
+      "triage.html",
+      "booking.html",
+      "languages.html",
+      "join.html",
+      "about.html"
+    ],
+    "source_type": "User-provided Markdown attachments and inline messages; not a live fetch",
+    "demo_disclosure": "The provided About text explicitly says the clinician roster and availability are sample data and no real consultation is booked.",
+    "runtime_verified": false,
+    "other_deployments_content_verified": false
+  },
+  "content_audit_results": {
+    "doctor_cards": 42,
+    "available_now_cards": 17,
+    "language_rows": 113,
+    "doctor_speaks_rows": 44,
+    "interpreter_rows": 69,
+    "languages_with_unexplained_difference_between_profile_and_directory": 12,
+    "counts_are_demo_content_not_live_capacity": true
+  },
+  "review_document": {
+    "document_id": "NAVIAR-CARE-002-REV-001",
+    "filename": "NAVIAR-CARE-002-REV-001_Inceleme-ve-Duzeltmeler_v1.0.md",
+    "sha256": "d647648a9cfaef852d95954f2e62604d4dd8d3e52ab60413c1d94cec28982f86",
+    "version": "1.0",
+    "live_website_changes": false
+  }
+}

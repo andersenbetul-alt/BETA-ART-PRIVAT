@@ -1,0 +1,156 @@
+{
+ "proje": "NAVIAR-CARE-002",
+ "arsiv": "NC2-ARS",
+ "tarih": "2026-09-05",
+ "kaynak": "Kullanıcı yüklemesi (Claude Code oturumu), 05.09.2026",
+ "kayitlar": [
+  {
+   "no": "NC2-ARS-001",
+   "dosya": "NAVIAR-MASTER-2026-001_DOC-KONSEPT-WEB-01_v1.0.html",
+   "tur": "Ana arşiv belgesi · CARE 1 ve CARE 2 konsept/gelişim kaydı",
+   "bayt": 24995,
+   "sha256": "b7f4f3a754d75fd2a838afd36a7e01353bab2283689962c0213f716bd6e33d26"
+  },
+  {
+   "no": "NC2-ARS-002",
+   "dosya": "NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v6.html",
+   "tur": "Güncel teslim · v6",
+   "bayt": 32267,
+   "sha256": "011d2b789b4969164b9a7debb54f0ead848b14618ae4cded092ae2e793d5ee2d"
+  },
+  {
+   "no": "NC2-ARS-003",
+   "dosya": "NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v6.md",
+   "tur": "Güncel teslim · v6 (Markdown kaynak)",
+   "bayt": 26602,
+   "sha256": "6b1b92f7115d72d715f6dc00c01e5ad52753ddc5eebb11974dc8df35c1e7ae5a"
+  },
+  {
+   "no": "NC2-ARS-004",
+   "dosya": "NAVIAR-CARE-002_Web-Sitesi-Metinleri_NO-EN-TR_v6.html",
+   "tur": "Güncel teslim · v6 · üç dilde site metinleri",
+   "bayt": 91456,
+   "sha256": "c2d70d70e310e5d216ab74851a6d5cc397617f3b8635f8cf86229b72ae07d057"
+  },
+  {
+   "no": "NC2-ARS-005",
+   "dosya": "NAVIAR-CARE-002_Arsiv-Dizini_v6.html",
+   "tur": "Arşiv dizini · v6 (kullanıcı paketi)",
+   "bayt": 6913,
+   "sha256": "d2f261aac39da72abccb02de630708d3907e81061da9b2a677a6b69caac4b6c3"
+  },
+  {
+   "no": "NC2-ARS-006",
+   "dosya": "NAVIAR-CARE-002_Arsiv-Envanteri_v6.json",
+   "tur": "Arşiv envanteri · v6",
+   "bayt": 5140,
+   "sha256": "490cce9d2e3ef19308b00377d773e52ba29e54db1cf10078a6fba1f408fd4ee6"
+  },
+  {
+   "no": "NC2-ARS-007",
+   "dosya": "SHA256SUMS.txt",
+   "tur": "Bütünlük listesi (kullanıcı paketi)",
+   "bayt": 2046,
+   "sha256": "82b129c4815a436f14b52f16b9b0e34cb3f1329fc39dee8cd9fc6c3ba9c97aa2"
+  },
+  {
+   "no": "NC2-ARS-008",
+   "dosya": "NAVIAR-CARE-002-DOS-001_Konsept-ve-Gelistirme_v1.0.pdf",
+   "tur": "Geçmiş kayıt · ilk konsept",
+   "bayt": 122177,
+   "sha256": "9af37198cc18f92299e6f5f86d95fa9a3cea7e058e65e6e6916d2320e7ab3c8f"
+  },
+  {
+   "no": "NC2-ARS-009",
+   "dosya": "NAVIAR-CARE-002-DOS-002_Isletim-ve-Yayin_v3.0.pdf",
+   "tur": "Geçmiş kayıt · işletim ve yayın",
+   "bayt": 89620,
+   "sha256": "30c758a67b578ba1d6a6583ffb35d511eb8ce176d9775beb7334918e99c9334e"
+  },
+  {
+   "no": "NC2-ARS-010",
+   "dosya": "NAVIAR-CARE-002-REG-001_Arsiv-Kaydi_v1.3.json",
+   "tur": "Geçmiş kayıt · arşiv kaydı",
+   "bayt": 13344,
+   "sha256": "5d636b7303fa308586a9e682f54b64189801705dff5c26c76cea827fd2850a9a"
+  },
+  {
+   "no": "NC2-ARS-011",
+   "dosya": "NAVIAR-CARE-002-REV-001_Inceleme-ve-Duzeltmeler_v1.0.md",
+   "tur": "İnceleme · düzeltmeler",
+   "bayt": 25278,
+   "sha256": "d647648a9cfaef852d95954f2e62604d4dd8d3e52ab60413c1d94cec28982f86"
+  },
+  {
+   "no": "NC2-ARS-012",
+   "dosya": "NAVIAR-CARE-002-REV-002_Tasarim-Inceleme_v4.html",
+   "tur": "İnceleme · tasarım v4 (ekran görüntüleri gömülü)",
+   "bayt": 982300,
+   "sha256": "24554102be6b985f259e0114bcd02bccf83d7c0514ffc5861b752cc0669f5944"
+  },
+  {
+   "no": "NC2-ARS-013",
+   "dosya": "NAVIAR-CARE-002-SRC-001_Ana-Sayfa_Kullanici-Kopyasi.md",
+   "tur": "Kullanıcının paylaştığı kaynak metin",
+   "bayt": 13465,
+   "sha256": "1f0762011a6929a3a5ed39411d142430ebdc0cf7744b2368a18596b8e4ba43dd"
+  },
+  {
+   "no": "NC2-ARS-014",
+   "dosya": "NAVIAR-CARE-002-SRC-002_Doktor-Rezervasyon_Kullanici-Kopyasi.md",
+   "tur": "Kullanıcının paylaştığı kaynak metin",
+   "bayt": 19806,
+   "sha256": "e7e943840a226842df52d3239a91430e5cc1290e2d6f579b420ac06d4a065bf6"
+  },
+  {
+   "no": "NC2-ARS-015",
+   "dosya": "NAVIAR-CARE-002-SRC-003_Diller_Ikinci-Gonderim.md",
+   "tur": "Kullanıcının paylaştığı kaynak metin",
+   "bayt": 27541,
+   "sha256": "b8ccc9726c21c295d527a936bda84e9431bdc0874e35b6431f6396875348f301"
+  },
+  {
+   "no": "NC2-ARS-016",
+   "dosya": "NAVIAR-CARE-002-SRC-003_Diller_Kullanici-Kopyasi.md",
+   "tur": "Kullanıcının paylaştığı kaynak metin",
+   "bayt": 27541,
+   "sha256": "b8ccc9726c21c295d527a936bda84e9431bdc0874e35b6431f6396875348f301"
+  },
+  {
+   "no": "NC2-ARS-017",
+   "dosya": "NAVIAR-CARE-002_Platform-Karari-ve-Test_v1.0.html",
+   "tur": "Geçmiş kayıt · platform kararı",
+   "bayt": 16863,
+   "sha256": "4a785111e9b91c641a1b2d57db3668d80c329078a1bc988309d1530e695d7b11"
+  },
+  {
+   "no": "NC2-ARS-018",
+   "dosya": "NAVIAR-CARE-002_Studio-Demo_v1.0.html",
+   "tur": "Geçmiş kayıt · studio demo (tek dosya)",
+   "bayt": 158174,
+   "sha256": "a84f6509b9b30ce3b79f246afea75c6bfe753ca677e1c640ed023aac237f5d3f"
+  },
+  {
+   "no": "NC2-ARS-019",
+   "dosya": "NAVIAR-CARE-002_Teslim-Kaydi_v5.0.html",
+   "tur": "Geçmiş kayıt · teslim v5",
+   "bayt": 10006,
+   "sha256": "3d20532568eee22ee597ac5d56dc666d3ff247f2712380b524322ba8eae2194b"
+  },
+  {
+   "no": "NC2-ARS-020",
+   "dosya": "NAVIAR-CARE_SRC03_Proje-Dokumantasyonu_v1.0.docx",
+   "tur": "SRC-03 (yaşlı desteği, ayrı hizmet) · proje dokümantasyonu",
+   "bayt": 68405,
+   "sha256": "a7a543999d8d0af5464e23f9a63198cc1501fd441bc3959c54c0ae3dcb70ad76"
+  },
+  {
+   "no": "NC2-ARS-021",
+   "dosya": "naviar/care2-src/ (kaynak kod, 27 dosya)",
+   "tur": "Kaynak kod · v6 teslimi (üretici, katalog, şema, testler, tasarım notları)",
+   "bayt": 415338,
+   "sha256": "—"
+  }
+ ],
+ "not": "Kullanıcı arşiv revizyonu 2 (17 dosya): NAVIAR-CARE-2-demo.html ve NAVIAR-CARE-002-Tasarim-v4.jpg bu oturuma yüklenmedi, listede yok."
+}
