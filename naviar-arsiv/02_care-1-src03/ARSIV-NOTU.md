@@ -48,8 +48,9 @@ kontrolleri ortam hatasıyla TAMAMLANAMADI; SERVICE_OPEN /
 PAYMENTS_ENABLED / LAUNCH_REVIEW_COMPLETE false — gerçek hizmet, ödeme
 ve e-posta kapalı. Açılış girdileri (işletme kimliği, bölge, e-posta,
 alan adı, sağlayıcı hesapları) işletme sahibinden bekleniyor.
-`KAYNAK-KOD_v2.4.zip` bu oturuma YÜKLENMEDİ — buradaki kaynak ağacı
-hâlâ sürüm 5 / 255ee9b2 temelidir, v2.4 koduyla eş değildir.
+(Güncelleme, aynı gece: `KAYNAK-KOD_v2.4.0.zip` sonradan geldi —
+aşağıdaki "v2.4.0 tam kaynak paketi" bölümüne bakın; kök ağaç sürüm 5
+temeli olarak korunur.)
 
 ## Platform-studio çalışma kaydı (05.09.2026 gece)
 
