@@ -21,7 +21,7 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | 03 | `03_care-1-studio-web-2026-002/` | WEB-2026-002 "Hverdagsstøttepilot" statik prototip + **logo v0.2 kaynak SVG** (`brand/`) | `03_…/ARSIV-NOTU.md` |
 | 04 | `04_care-2/` | NAVIAR CARE 2 (NAVIAR-CARE-002) — dil odaklı dijital sağlık konsepti | `04_care-2/ARSIV-NOTU.md` |
 | 05 | `05_consult/` | NAVIAR Consult (P-010 / NVC-001) teslim ve gelişim kayıtları | `05_consult/ARSIV-NOTU.md` |
-| 06 | — ayrılmış — | P-011 hattı (COOKIE1/STUDIO demoları): dosyaları henüz gelmedi | master FILE-007…012 |
+| 06 | `06_p011/` | P-011 hattı: STUDIO demo + rapor + kaynak v0.4.0 (53 dosya) | FILE-010/011/012 geldi; COOKIE1 (FILE-007/008) ve TESLIM_RAPORU (FILE-009) bekleniyor |
 
 ## Numaralı belge kaydı (teslim/tasarım belgeleri)
 
@@ -44,6 +44,11 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | BA-031 | 02 | `belge-paketi-20260905/` | SRC-03 belge paketi (18 dosya; SHA256 17/17 doğrulandı; CHAT-004 üçlüsü FILE-020…022 dahil) |
 | BA-032 | 02 | `belge-paketi-20260905/01_PROJE_BELGELERI/NAVIAR-CARE_SRC03_Proje-Dokumantasyonu_v1.0.docx` | 29 sayfalık ana proje dokümantasyonu (+ md kaynağı) |
 | BA-033 | 02 | `doc-012-paketi/` | DOC-012 tekil bölümler (SHA256SUMS ile parça parça; fotoğrafın YZ-üretimi kaydı 04'te) |
+| BA-034 | 02 | `tam-arsiv-20260905/` | TAM-ARSIV v1.0 meta seti (DIZIN, OKU-BENI, DOGRULAMA.json, dosya listesi, SHA256SUMS, web bağlantıları) |
+| BA-035 | 06 | `NAVIAR-CARE_P-011_STUDIO_DEMO.html` | P-011 etkileşimli stüdyo demosu (FILE-010) |
+| BA-036 | 06 | `NAVIAR-CARE_P-011_STUDIO_RAPORU.md` | P-011 stüdyo raporu v0.4.0 (FILE-012) |
+| BA-037 | 06 | `studio-kaynak-v0.4.0/` | P-011 kaynak kodu v0.4.0 (53 dosya, FILE-011) |
+| BA-038 | 01 | `STD-PROJE-001_TUM-PROJELER-STANDARDI.md` | Tüm projeler ortak standardı (FILE-015/RELATED-002) |
 | BA-009 | 03 | `docs/CONCEPT.md` | Stüdyo prototip konsepti |
 | BA-010 | 03 | `docs/PLATFORM-DECISION.md` | Platform kararı |
 | BA-011 | 03 | `docs/DECISION-LOG.md` | Karar günlüğü |
@@ -71,7 +76,8 @@ sayılır; tam liste için `git ls-files naviar-arsiv/`.
 | Beklenen | Master kaydı | Gideceği yer |
 |---|---|---|
 | `01_SOURCE-REGISTER.md` | — | 01 |
-| P-011 zip'leri + raporları (COOKIE1 v0.3.0, STUDIO v0.4.0) | FILE-007…012 | 06 (açılacak) |
+| P-011 COOKIE1 önizleme + zip (v0.3.0) ve TESLIM_RAPORU | FILE-007/008/009 | 06 |
+| TAM-ARSIV zip (245 içerik dosyası; meta seti geldi → 02/tam-arsiv-20260905) | — | 02 |
 | `NAVIAR-CARE-001_master_candidate_v0.3.svg` | FILE-016 | 03/brand |
 | KAYNAK-KOD zip'leri v1.0 ve v2.2 (v2.4.0 GELDİ → BA-029) | FILE-014/019 | 02 |
 | CARE 2: build_content.py, build_operations.py, db/schema.ts, drizzle göçü, dist/ | 04 ARSIV-NOTU | 04 |
