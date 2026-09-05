@@ -63,6 +63,27 @@ change; it is the single source.
 - First institutional contact target: Drammen kommune (Tilrettelagt
   fritid).
 
+## Business line 3 — NAVIAR Consult (P-010 / NVC-001, pre-launch)
+
+- What: workplace-attendance consulting (arbeidsnærvær) — helping
+  employers and employees handle tilrettelegging, stay-at-work and
+  return-to-work with human-led advisory; digital tools are support.
+- Platform: built and privately published on ChatGPT sites (3 sites,
+  NO/EN/TR). Code is NOT in this repo — this repo archives concept
+  and delivery records only (naviar-consult/docs/).
+- Status: private review published; INTAKE and PAYMENTS disabled.
+  Commercial opening blocked on: company name + org.nr, business
+  email + owned domain, responsible consultant + real availability,
+  Resend + Stripe accounts and tests, final terms.
+- Pricing: 19,900 NOK / NAVIAR Start is a TEST HYPOTHESIS, not a
+  confirmed price.
+- Brand-family note: NAVIAR now has parallel builds — canonical CARE
+  landing (this repo → naviar-care-live), the v0 prototype
+  (naviar-care-1), ChatGPT CARE "SRC-03" private version, and the
+  Consult sites. Single public line remains naviar-care-live +
+  naviarcare.com; the others are private review/archive until the
+  owner consolidates.
+
 ## Connected tools (verified 02.09.2026, this account)
 
 Connected and usable by plugin workflows: Gmail, Google Calendar,
