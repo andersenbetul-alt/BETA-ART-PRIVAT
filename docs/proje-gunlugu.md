@@ -540,3 +540,20 @@ belgeleri arşivle, numara ver, sonra bu kaynakları kullanarak siteyi yeniden y
 - Eksik ve kullanıcıdan istenen: `assets/conversation.webp` (hero fotoğrafı), özgün
   `assets/logo.svg`, `styles.css`/`site.js`/`model.js`/`operations.js` orijinalleri,
   `server/operations.mjs`. Gelirse `public/` altındakiler yerini bırakır.
+
+## 05.09.2026 (gece, son) — CARE 2 statik sürüm tamamlandı: özgün varlıklar, studio-demo, v7 belgeleri
+
+Kullanıcı "bu kaynakları baz alarak siteyi ve konsepti yap, bitir; eksiksiz teslim et" dedi.
+- Arşivdeki `NAVIAR-CARE-002_Studio-Demo_v1.0.html` tek dosya çıktı: içinde özgün logo
+  (hibrit işaret v0.3) ve 1000×1250 KI görseli base64 gömülüymüş. İkisi çıkarılıp siteye
+  kondu; yer tutucu çizim ve v0.2 pano logosu siteden kalktı (marka dosyaları duruyor).
+- Aynı dosyadan `/studio-demo/` geri kazanıldı; sabit 7–9 Eylül tarihleri `sample-calendar.js`
+  ile Oslo takvimine bağlandı (v6 DEC-014). `checks/static.py` artık 27 + 9 sayfa PASS,
+  `sample-calendar.test.mjs` PASS, katalog PASS; smoke 54/54.
+- İşletim sayfası yerel test özeti gösteriyor; rezervasyona ICS takvim dosyası eklendi.
+- Konsept: `design/CONCEPT-v7-tr.md` (v6 + statik sürüm farkları, DEC-018…022, §20),
+  `design/RELEASE-v7.md`; kullanıcının kendi `export-handoff` aracıyla üretilen v7 teslim
+  HTML/MD ve üç dilli site metinleri `docs/naviar/care2-teslim/` (NC2-ARS-024…026).
+- ZIP ile gelen `Tasarim-v4.jpg` arşive girdi; SHA256SUMS 17/17.
+- Canlı: naviarcare.vercel.app (Vercel `naviarcare`, `python3 build_static.py`).
+Açık kalan: naviarcare.com DNS (kullanıcı), marka hukuki taraması, CONCEPT §16 klinik açılış işleri.

@@ -9,7 +9,7 @@ belge kodları (DOS/REV/SRC/REG) dosya adında durur ve değiştirilmez.
 Teslim paketinde bulunmayan ön yüz dosyaları (`styles.css`, `site.js`, `model.js`, `operations.js`,
 `studio.js`, `sample-calendar.js`) ve sunucu (`server/*.mjs`) `naviar/care2-src/public/` altında
 yeniden yazıldı; özgün `logo.svg` ve `conversation.webp` arşivdeki Studio-Demo dosyasının içinden
-çıkarıldı. v7 belgeleri (NC2-ARS-025…027) bu statik sürümü anlatır.
+çıkarıldı. v7 belgeleri (NC2-ARS-024…026) bu statik sürümü anlatır.
 
 | No | Dosya | Tür | Bayt | SHA-256 |
 |---|---|---|---|---|
