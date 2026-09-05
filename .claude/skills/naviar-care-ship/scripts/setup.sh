@@ -17,7 +17,7 @@ if [ ! -f "$DEST/package.json" ]; then
   (cd "$PARENT" && bash "$INIT" "$NAME")
 fi
 
-cp "$SRC/src/App.tsx" "$SRC/src/index.css" "$SRC/src/main.tsx" "$DEST/src/"
+cp "$SRC/src/"*.tsx "$SRC/src/"*.ts "$SRC/src/"*.css "$DEST/src/" 2>/dev/null || cp "$SRC/src/App.tsx" "$SRC/src/index.css" "$SRC/src/main.tsx" "$DEST/src/"
 cp "$SRC/index.dev.html" "$DEST/index.html"
 cp "$SRC/tailwind.config.js" "$DEST/tailwind.config.js"
 

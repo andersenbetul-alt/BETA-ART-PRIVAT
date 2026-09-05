@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import './index.css'
+import { HVERDAG_IMG } from './hverdag'
 
 function scrollTo(id: string) {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -103,6 +104,12 @@ const COPY = {
       ],
       money: 'Del aldri BankID, PIN-kode eller bankkort med en hjelper. Ekstra arbeid og pris avtales alltid før arbeidet starter.',
       emergency: 'Ved fare for liv ring 113 · brann 110 · akutt fare 112. NAVIAR CARE er ikke en nødtjeneste.',
+      pipeline: 'Hjelperløpet: søknad → kontaktkontroll → ID → referanser → opplæring → oppgavevurdering. En søknad gjør ingen klar for oppdrag.',
+    },
+    photo: {
+      alt: 'En eldre kvinne og en hjelper snakker sammen ved kjøkkenbordet. KI-generert illustrasjonsbilde.',
+      caption: 'Plass til det som gjør dagen god.',
+      tag: 'KI-generert illustrasjonsbilde',
     },
     pilot: {
       kicker: 'Pilotstatus', h2: 'Hva er aktivt i piloten — og hva kommer',
@@ -318,6 +325,12 @@ const COPY = {
       ],
       money: 'Never share BankID, PIN codes or bank cards with a helper. Extra work and its price are always agreed before the work starts.',
       emergency: 'For danger to life call 113 · fire 110 · immediate danger 112. NAVIAR CARE is not an emergency service.',
+      pipeline: 'The helper path: application → contact check → identity → references → training → task assessment. Applying does not make anyone ready for assignments.',
+    },
+    photo: {
+      alt: 'An older woman and a helper chat at the kitchen table. AI-generated illustrative image.',
+      caption: 'Make room for a good day.',
+      tag: 'AI-generated illustrative image',
     },
     pilot: {
       kicker: 'Pilot status', h2: 'What is active in the pilot — and what is coming',
@@ -533,6 +546,12 @@ const COPY = {
       ],
       money: 'BankID, PIN kodu veya banka kartınızı yardımcıyla asla paylaşmayın. Ek iş ve ücreti her zaman iş başlamadan önce kararlaştırılır.',
       emergency: 'Hayati tehlikede 113 · yangında 110 · acil tehlikede 112. NAVIAR CARE bir acil yardım hizmeti değildir.',
+      pipeline: 'Yardımcı hattı: başvuru → iletişim kontrolü → kimlik → referanslar → eğitim → görev değerlendirmesi. Başvuru yapmak kimseyi göreve hazır yapmaz.',
+    },
+    photo: {
+      alt: 'Yaşlı bir kadın ve yardımcı mutfak masasında sohbet ediyor. YZ üretimi temsili görsel.',
+      caption: 'Günü güzelleştiren şeylere yer açın.',
+      tag: 'YZ üretimi temsili görsel',
     },
     pilot: {
       kicker: 'Pilot durumu', h2: 'Pilotta ne aktif — ne yolda',
@@ -1501,8 +1520,29 @@ function Trygghet({ L }: { L: Copy }) {
           </svg>
           <p style={{ fontSize: 14, lineHeight: 1.6, color: '#10384A', margin: 0 }}>{L.trygg.money}</p>
         </div>
+        <p style={{ fontSize: 13, color: '#10384A', margin: '0 0 10px' }}>{L.trygg.pipeline}</p>
         <p style={{ fontSize: 12.5, color: '#52676F', margin: 0 }}>{L.trygg.emergency}</p>
       </div>
+    </section>
+  )
+}
+
+// ─── Fotoğraf bandı (YZ-etiketli temsili görsel — kaynak: v2.4.0 hverdag.png) ─
+
+function PhotoBand({ L }: { L: Copy }) {
+  return (
+    <section style={{ background: '#FFFFFF', padding: '0 24px' }}>
+      <figure style={{ maxWidth: 1200, margin: '0 auto', padding: '56px 0' }}>
+        <img
+          src={HVERDAG_IMG}
+          alt={L.photo.alt}
+          style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 10, border: '1px solid #C6DCDC' }}
+        />
+        <figcaption style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 16, flexWrap: 'wrap', marginTop: 12 }}>
+          <span style={{ fontFamily: '"Playfair Display", Georgia, serif', fontSize: 19, color: '#10384A' }}>{L.photo.caption}</span>
+          <span style={{ fontSize: 12, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#52676F' }}>{L.photo.tag}</span>
+        </figcaption>
+      </figure>
     </section>
   )
 }
@@ -2118,6 +2158,7 @@ export default function App() {
       <main>
         <Hero L={L} onCta={openModal} next={next} />
         <Promises L={L} />
+        <PhotoBand L={L} />
         <HowItWorks L={L} />
         <Categories L={L} onCta={openModal} top={top} />
         <Trygghet L={L} />
