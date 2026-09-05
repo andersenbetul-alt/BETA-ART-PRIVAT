@@ -57,11 +57,11 @@ hjelpen, godkjenner besøket" netliği eklenebilir).
 ## Kaynak arşivi (05.09 gece)
 
 Kullanıcı SRC-03'ün tam kaynak ağacını bu oturuma yükledi; olduğu gibi
-`naviar-care/src03-arsiv/` altında arşivlendi (teknik özet ve adlandırma
-notları: `src03-arsiv/ARSIV-NOTU.md`). Kaynak temel: özel inceleme
+`naviar-arsiv/02_care-1-src03/` altında arşivlendi (teknik özet ve adlandırma
+notları: `naviar-arsiv/02_care-1-src03/ARSIV-NOTU.md`). Kaynak temel: özel inceleme
 sürümü 5, `255ee9b2f98e5cfab344ede26f876908d0ab6877`. Tek dosyalık
 tasarım önizlemesi ve 23 bölümlük tam konsept belgesi
-`src03-arsiv/teslim/` içinde. Kod ChatGPT Sites'a bağlıdır ve bu depoda
+`naviar-arsiv/02_care-1-src03/teslim/` içinde. Kod ChatGPT Sites'a bağlıdır ve bu depoda
 çalıştırılmaz; arşiv, karşılaştırma ve taşıma kararlarına dayanaktır.
 
 ## Karar bekleyenler (sahibi: Betul)

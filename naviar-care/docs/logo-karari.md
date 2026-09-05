@@ -37,9 +37,9 @@ tanım panolardan okunandır, üretim için kaynak dosyalar beklenir.
 ## Güncelleme (05.09.2026 gece): v0.2 kaynak SVG geldi
 
 WEB-2026-002 stüdyo paketiyle logo adayının kaynak dosyası teslim
-edildi: `naviar-care-studio-arsiv/brand/NAVIAR-CARE-001_master_
+edildi: `naviar-arsiv/03_care-1-studio-web-2026-002/brand/NAVIAR-CARE-001_master_
 candidate_v0.2.svg`. Ancak bu **v0.2**; master dosya kaydı
-(`naviar-master-arsiv/02_FILE-REGISTER.md`, FILE-016) ChatGPT
+(`naviar-arsiv/01_master-dizin/02_FILE-REGISTER.md`, FILE-016) ChatGPT
 arşivinde `NAVIAR-CARE-001_master_candidate_v0.3.svg` bulunduğunu
 söylüyor ve QA panosu v0.3'ü REVISE işaretliyordu. Kanonik
 landing'deki logo değişimi v0.3 gelince yapılmalı; v0.2 acele
@@ -58,7 +58,7 @@ gerekiyorsa ara çözüm olarak kullanılabilir (karar sahibi: Betul).
    **köken kaydı** tutulur (bu dosya + kaynak dosyaların özetleri
    eklenecek). QBLOGG'un marka-tescil zarf denetimi (marka-tescil.mjs)
    EUIPO dosyası hazırlanırsa bu varlıklara da uygulanabilir.
-4. Eski logo arşivde kalır (src03-arsiv içindeki gömülü SVG +
+4. Eski logo arşivde kalır (naviar-arsiv/02_care-1-src03 içindeki gömülü SVG +
    assets/brand geçmişi); sessizce silinmez.
 
 ## Açık soru
