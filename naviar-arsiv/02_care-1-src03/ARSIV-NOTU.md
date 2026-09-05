@@ -108,9 +108,14 @@ tek nüsha paket içinde durur.
 
 ## DOC-012 belge paketi (05.09.2026 gece — doc-012-paketi/)
 
-DOC-012 setinin tekil dosyaları parça parça geliyor; her gelen dosya
-paketin kendi `SHA256SUMS.txt`'siyle (45 kayıt) doğrulanarak ekleniyor.
-Şu ana kadar: 00_OKU-BENI, BELGE-LISTESI.md, 01_BELGELER/01–05.
+DOC-012 setinin tekil dosyaları parça parça geldi; her dosya paketin
+kendi `SHA256SUMS.txt`'siyle (45 kayıt) doğrulanarak eklendi. Durum:
+**35/45 doğrulandı** — 20 bölümün TAMAMI (01_BELGELER), 10 doğrulama
+dosyasının tamamı (02_DOGRULAMA), OKU-BENI, BELGE-LISTESI (md+csv),
+TUM-BELGELER html (üstteki teslim kopyasından sağlama eşleşerek
+tamamlandı). Eksik 10: TUM-BELGELER md kaynağı + 03_ONCEKI_BELGELER'in
+9 tarihsel dosyası (DOC-001/005/007/009×2/010-TESLIM/011 docx+md/
+REV-20260904; FINAL-TESLIM v2.4 tamam).
 OKU-BENI'nin ek kontrolleri: 30 rota HTTP 200, 333 anahtar ×3 dil,
 8 tablonun veri sözlüğü, 37 test, kaynak zip 62 dosya SHA-256 eşleşti.
 Birleşik hali zaten `teslim/DOC-012_TUM-BELGELER_v1.0.html`'de.
