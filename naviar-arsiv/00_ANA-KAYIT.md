@@ -75,6 +75,19 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 Kaynak kod dosyaları (uygulama, test, yapılandırma) klasör bazında
 sayılır; tam liste için `git ls-files naviar-arsiv/`.
 
+
+## Açılan zip paketlerinin kimlikleri
+
+Zip'ler ikili olarak saklanmadı; içerikleri kendi sağlama listeleriyle
+doğrulanarak açıldı. Köken kimliği için SHA-256 önekleri:
+
+| Zip | SHA-256 (ilk 16) | Açıldığı yer |
+|---|---|---|
+| NAVIAR-CARE_SRC03_Arsiv_20260905.zip (×3 kopya) | `1edfb6917906ccce…` | belge-paketi-20260905/ |
+| NAVIAR-CARE-001-WEB-01_KAYNAK-KOD_v2.4.0.zip (×3 kopya) | `eb75e82a9754acd2…` | kaynak-v2.4.0/ |
+| P-011_COOKIE1_ARSIV_20260905_v1.0.zip | `b7bd6512893ff6d5…` | 06_p011/cookie1-arsivi/ |
+| WEB2026002NAVIARCARESTUDIO.zip | `1d9a603123c05a89…` | 03_care-1-studio-web-2026-002/ |
+
 ## Eksik parçalar (master FILE-REGISTER'a ve belgelere göre)
 
 | Beklenen | Master kaydı | Gideceği yer |
