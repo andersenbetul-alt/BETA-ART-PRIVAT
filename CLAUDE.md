@@ -132,7 +132,7 @@ denetler (tek yazı: `node scripts/gorunurluk.mjs <slug>`). Motorun taslaklara u
 ölçütü sitenin kendi yazılarına da uygular — kendi kuralımıza uymayan bir hattı
 kimseye satamayız.
 
-`npm run onizleme` altı sayfayı, yazı tipleri dahil her şeyi tek dosyaya gömüp
+`npm run onizleme` sekiz sayfayı, yazı tipleri dahil her şeyi tek dosyaya gömüp
 `onizleme/qblogg.html` üretir: sunucu kurmadan, dışarıya hiç istek atmadan
 tıklanabilir bir önizleme. Birine site göstermek gerektiğinde bunu kullanın.
 Yönlendirme `?page=` ile; `slug` ve `lang` gerçek sorgu dizesinde kaldığı için
