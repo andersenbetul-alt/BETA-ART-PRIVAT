@@ -69,6 +69,7 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | BA-024 | 04 | `README.md` | CARE 2 operasyon sürümü belgesi |
 | BA-025 | 05 | `NVC-001_Kapanis-ve-Teslim.md` | Consult kapanış-teslim (ticari açılış tamamlanmadı) |
 | BA-026 | 05 | `NVC-001-DEC-02_Surekli-Gelisim-Kaydi.md` | Consult sürekli gelişim kaydı |
+| BA-041 | 05 | `NVC-001-LIST-12_Belge_Listesi.md` | Consult tam arşiv dizini (ARC-NVC-001-ALL-DOCS-20260905): 9 güncel rehber/sicil + 145 tarihsel dosya + kaynağında korunan zip/görsel listesi — dosyaların kendileri ChatGPT arşivinde, henüz gelmedi |
 
 Kaynak kod dosyaları (uygulama, test, yapılandırma) klasör bazında
 sayılır; tam liste için `git ls-files naviar-arsiv/`.
