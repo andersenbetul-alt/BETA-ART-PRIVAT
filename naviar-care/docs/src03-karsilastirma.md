@@ -6,6 +6,13 @@ erişilemiyor, chatgpt.site engelli). Kanonik hat: bu depo →
 naviar-care-live. Amaç: iyi fikirleri bilinçli taşımak, iki ürünü
 sessizce karıştırmamak.
 
+**Güncelleme (05.09.2026, ikinci yapıştırma):** naviar-care-1 adresi
+artık aynı SRC-03 yapısını gösteriyor (altbilgi: "© 2026 NAVIAR CARE ·
+SRC-03"; üstbilgi: "Lokal designvisning · ingen bestilling sendes").
+Yani ChatGPT tarafındaki v0 ve SRC-03 kopyaları TEK hat oldu — marka
+ailesindeki paralel kopya sayısı fiilen 4'ten 3'e indi (kanonik +
+ChatGPT/SRC-03 + Consult siteleri). Karar 3 buna göre sadeleşti.
+
 ## SRC-03'ün güçlü yanları (taşıma adayları)
 
 | # | SRC-03 öğesi | Değerlendirme | Öneri |
@@ -38,6 +45,14 @@ hjelpen, godkjenner besøket" netliği eklenebilir).
 | 11 | Acil durum ayrımı: "113/110/112 — bu bir acil servis değildir" | **TAŞI** — kanonikte 113 yalnız SSS'de; ayrı görünür satır olmalı |
 | 12 | "ID-kontroll, referanser, opplæring, forsikring og bemannet støtte må være på plass. Dette er ikke bekreftet i prøveversjonen" — dürüst ön koşul listesi | Pilotstatus bölümümüzle birleşir; sigorta kalemi hukuk listesinde zaten |
 | 13 | Yardımcı alım hattı (Bli hjelper sayfası): **søknad → kontaktkontroll → ID → referanser → opplæring → oppgavevurdering**; "başvuru seni göreve hazır yapmaz" dürüstlüğü | **TAŞI** — konsol Hjelpere sekmesine aşama alanı + breakdown'daki yardımcı tarafına bu boru hattı |
+
+## naviar-care-1 (= SRC-03) ana sayfasından ek adaylar (05.09 ikinci yapıştırma)
+
+| # | Öğe | Öneri |
+|---|---|---|
+| 14 | Kişisel verisiz deneme formu: "Prøv forespørselen — ingenting lagres eller sendes. Du trenger ikke skrive navn, adresse eller andre personopplysninger" + "valgene forsvinner når du lukker siden" | **TAŞI** — bizim prototype.html aynı ilkeyle çalışıyor; bu açıklama cümlesi prototipin başına eklenmeli (veri minimizasyonunu görünür kılar) |
+| 15 | Üç değer kartı: "Du bestemmer / Prisen først / Mennesker, nær deg" — fiyat teklifi avtale onayından ÖNCE gelir | Değerlendir — "Prisen først" ilkesi breakdown'daki fiyat-onay adımıyla örtüşüyor; kanonikte metin olarak var ama kart düzeyinde görünür değil |
+| 16 | "Tjenesteområdet må avklares før ekte bestillinger åpner" — kategori bölümünün altında dürüst sınır notu | Taşıma gerekmez — kanonikte Pilotstatus + "Drammen og omegn" bunu zaten daha somut söylüyor |
 
 ## Karar bekleyenler (sahibi: Betul)
 
