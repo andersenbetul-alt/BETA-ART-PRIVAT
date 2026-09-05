@@ -49,9 +49,9 @@
   {
    "no": "NC2-ARS-007",
    "dosya": "SHA256SUMS.txt",
-   "tur": "Bütünlük listesi (kullanıcı paketi)",
-   "bayt": 2046,
-   "sha256": "82b129c4815a436f14b52f16b9b0e34cb3f1329fc39dee8cd9fc6c3ba9c97aa2"
+   "tur": "Bütünlük listesi (kullanıcı paketi, rev. 2)",
+   "bayt": 2136,
+   "sha256": "8c72dcfdd07bfd8b6b629cc75ab6e8ff348f9c5153c5fcf79f3c3d0f8f8917c7"
   },
   {
    "no": "NC2-ARS-008",
@@ -150,7 +150,14 @@
    "tur": "Kaynak kod · v6 teslimi (üretici, katalog, şema, testler, tasarım notları)",
    "bayt": 415338,
    "sha256": "—"
+  },
+  {
+   "no": "NC2-ARS-022",
+   "dosya": "NAVIAR-CARE-2-demo.html",
+   "tur": "Geçmiş demo tasarımı · ayrı klasörden (arşiv rev. 2)",
+   "bayt": 21769,
+   "sha256": "31edf417a62aad3cd594ca8d4426a8181fe9ce135e647c1e256d047958a4a2ea"
   }
  ],
- "not": "Kullanıcı arşiv revizyonu 2 (17 dosya): NAVIAR-CARE-2-demo.html ve NAVIAR-CARE-002-Tasarim-v4.jpg bu oturuma yüklenmedi, listede yok."
+ "not": "Kullanıcı arşiv revizyonu 2 (17 dosya): 16/17 eşleşti; NAVIAR-CARE-002-Tasarim-v4.jpg bu oturuma yüklenmedi."
 }

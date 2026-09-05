@@ -2,9 +2,8 @@
 
 Proje kodu: NAVIAR-CARE-002. Arşiv tarihi: 05.09.2026. Kaynak: kullanıcının bu oturumda yüklediği
 dosyalar; adlar kullanıcının kendi arşiv dizinindeki (`NAVIAR-CARE-002_Arsiv-Dizini_v6.html`) adlara
-çevrildi, içerikler bayt bayt korundu (SHA-256 aşağıda; `SHA256SUMS.txt` ile 15/16 eşleşti,
-`NAVIAR-CARE-002-Tasarim-v4.jpg` yüklenmedi). Kullanıcının arşiv revizyonu 2 (17 dosya)
-ayrıca `NAVIAR-CARE-2-demo.html` listeler; o da yüklenmedi. Numaralar bu deponun sırasıdır; kullanıcının
+çevrildi, içerikler bayt bayt korundu (SHA-256 aşağıda; `SHA256SUMS.txt` (rev. 2) ile 16/17 eşleşti,
+`NAVIAR-CARE-002-Tasarim-v4.jpg` yüklenmedi).  Numaralar bu deponun sırasıdır; kullanıcının
 belge kodları (DOS/REV/SRC/REG) dosya adında durur ve değiştirilmez.
 
 Eksik olanlar (yüklenmedi): `assets/conversation.webp` (hero görseli), `assets/logo.svg`
@@ -20,7 +19,7 @@ Site yeniden kurulumunda bunlar `naviar/care2-src/public/` altında yeniden yaz�
 | NC2-ARS-004 | `NAVIAR-CARE-002_Web-Sitesi-Metinleri_NO-EN-TR_v6.html` | Güncel teslim · v6 · üç dilde site metinleri | 91456 | `c2d70d70e310e5d2…` |
 | NC2-ARS-005 | `NAVIAR-CARE-002_Arsiv-Dizini_v6.html` | Arşiv dizini · v6 (kullanıcı paketi) | 6913 | `d2f261aac39da72a…` |
 | NC2-ARS-006 | `NAVIAR-CARE-002_Arsiv-Envanteri_v6.json` | Arşiv envanteri · v6 | 5140 | `490cce9d2e3ef193…` |
-| NC2-ARS-007 | `SHA256SUMS.txt` | Bütünlük listesi (kullanıcı paketi) | 2046 | `82b129c4815a436f…` |
+| NC2-ARS-007 | `SHA256SUMS.txt` | Bütünlük listesi (kullanıcı paketi, rev. 2) | 2136 | `8c72dcfdd07bfd8b…` |
 | NC2-ARS-008 | `NAVIAR-CARE-002-DOS-001_Konsept-ve-Gelistirme_v1.0.pdf` | Geçmiş kayıt · ilk konsept | 122177 | `9af37198cc18f922…` |
 | NC2-ARS-009 | `NAVIAR-CARE-002-DOS-002_Isletim-ve-Yayin_v3.0.pdf` | Geçmiş kayıt · işletim ve yayın | 89620 | `30c758a67b578ba1…` |
 | NC2-ARS-010 | `NAVIAR-CARE-002-REG-001_Arsiv-Kaydi_v1.3.json` | Geçmiş kayıt · arşiv kaydı | 13344 | `5d636b7303fa3085…` |
@@ -35,5 +34,6 @@ Site yeniden kurulumunda bunlar `naviar/care2-src/public/` altında yeniden yaz�
 | NC2-ARS-019 | `NAVIAR-CARE-002_Teslim-Kaydi_v5.0.html` | Geçmiş kayıt · teslim v5 | 10006 | `3d20532568eee22e…` |
 | NC2-ARS-020 | `NAVIAR-CARE_SRC03_Proje-Dokumantasyonu_v1.0.docx` | SRC-03 (yaşlı desteği, ayrı hizmet) · proje dokümantasyonu | 68405 | `a7a543999d8d0af5…` |
 | NC2-ARS-021 | `naviar/care2-src/ (kaynak kod, 27 dosya)` | Kaynak kod · v6 teslimi (üretici, katalog, şema, testler, tasarım notları) | 415338 | `—…` |
+| NC2-ARS-022 | `NAVIAR-CARE-2-demo.html` | Geçmiş demo tasarımı · ayrı klasörden (arşiv rev. 2) | 21769 | `31edf417a62aad3c…` |
 
 Tam SHA-256 değerleri `00_ARSIV-ENVANTERI.json` içinde.
