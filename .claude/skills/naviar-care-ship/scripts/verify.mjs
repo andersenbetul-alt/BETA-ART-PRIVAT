@@ -22,7 +22,8 @@ try {
 const axe = readFileSync(axePath, 'utf8')
 
 const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' })
-const page = await browser.newPage({ viewport: { width: 1280, height: 900 } })
+// nb-NO: site språkdetekterer fra navigator.language — porten tester norsk primærversjon
+const page = await browser.newPage({ viewport: { width: 1280, height: 900 }, locale: 'nb-NO' })
 const external = []
 page.on('request', r => { const u = r.url(); if (!u.startsWith('file:') && !u.startsWith('data:')) external.push(u) })
 const errs = []
