@@ -41,9 +41,14 @@ edildi: `naviar-arsiv/03_care-1-studio-web-2026-002/brand/NAVIAR-CARE-001_master
 candidate_v0.2.svg`. Ancak bu **v0.2**; master dosya kaydı
 (`naviar-arsiv/01_master-dizin/02_FILE-REGISTER.md`, FILE-016) ChatGPT
 arşivinde `NAVIAR-CARE-001_master_candidate_v0.3.svg` bulunduğunu
-söylüyor ve QA panosu v0.3'ü REVISE işaretliyordu. Kanonik
-landing'deki logo değişimi v0.3 gelince yapılmalı; v0.2 acele
-gerekiyorsa ara çözüm olarak kullanılabilir (karar sahibi: Betul).
+söylüyor ve QA panosu v0.3'ü REVISE işaretliyordu.
+
+**Uygulama (aynı gece, kullanıcı talimatı "kaynak olarak bunları
+kullanarak web sitesini yapacaksın"):** kanonik landing'deki logo
+v0.2 kaynak SVG'nin geometrisiyle birebir değiştirildi (App.tsx →
+NaviarMonogram + NaviarLogo; yollar kaynak dosyadan kopya, renkler
+tema değişkeni). Elle yazılmış eski yaklaşık monogram kalktı. v0.3
+master gelince yalnızca yol verileri güncellenecek.
 
 ## Yapılacaklar
 

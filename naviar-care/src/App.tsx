@@ -793,13 +793,16 @@ function clearAllLocalData() {
 // N-monogram med diamant-hakk i diagonalen + geometrisk NAVIAR-ordmerke,
 // CARE mindre og høyrestilt under. Interim-implementasjon i kode inntil
 // kildefiler (SVG) leveres fra designsiden.
+// Logo geometrisi teslim edilen kaynak dosyadan birebir alınmıştır:
+// naviar-arsiv/03_care-1-studio-web-2026-002/brand/NAVIAR-CARE-001_master_candidate_v0.2.svg
+// (v0.3 master ChatGPT arşivinde — gelince güncellenecek; docs/logo-karari.md)
 function NaviarMonogram({ size = 30, color = '#10384A' }: { size?: number; color?: string }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 100 100" aria-hidden>
+    <svg width={size} height={size} viewBox="32 32 192 192" aria-hidden>
       <path
         fill={color}
         fillRule="evenodd"
-        d="M12 8 h22 L64 56 V8 h24 v84 H66 L36 44 v48 H12 Z M50 38 l10 12 -10 12 -10 -12 Z"
+        d="M32 224V32h47l98 105V32h47v192h-47L79 119v105zm96-111 15 15-15 15-15-15z"
       />
     </svg>
   )
@@ -807,17 +810,28 @@ function NaviarMonogram({ size = 30, color = '#10384A' }: { size?: number; color
 
 function NaviarLogo({ size = 30, dark = false }: { size?: number; dark?: boolean }) {
   const mark = dark ? '#FFFFFF' : '#10384A'
-  const name = dark ? '#FFFFFF' : '#10384A'
   const sub  = dark ? '#A7D1CE' : '#0B5152'
-  const gap  = size <= 24 ? 7 : 9
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap }}>
-      <NaviarMonogram size={size} color={mark} />
-      <div style={{ lineHeight: 1 }}>
-        <div style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontSize: size <= 24 ? 13 : 15, fontWeight: 700, letterSpacing: '0.22em', color: name }}>NAVIAR</div>
-        <div style={{ fontFamily: '"DM Sans", system-ui, sans-serif', fontSize: size <= 24 ? 7 : 8, fontWeight: 700, letterSpacing: '0.34em', color: sub, textTransform: 'uppercase', marginTop: 2, textAlign: 'right' }}>CARE</div>
-      </div>
-    </div>
+    <svg height={size} width={Math.round(size * 1252 / 360)} viewBox="0 0 1252 360" role="img" aria-label="NAVIAR CARE">
+      <path fill={mark} fillRule="evenodd" d="M32 224V32h47l98 105V32h47v192h-47L79 119v105zm96-111 15 15-15 15-15-15z" transform="translate(54 52)" />
+      <g fill={mark} transform="translate(350 78) scale(1.08)">
+        <path d="M20 100V20h20l51 54V20h19v80H91L39 46v54z" />
+        <path d="M140 100l48-80h20l48 80h-22l-36-61-36 61z" />
+        <path d="M186 78h24v11h-24z" />
+        <path d="M278 20h22l37 61 37-61h22l-49 80h-20z" />
+        <path d="M429 20h18v80h-18z" />
+        <path d="M480 100l48-80h20l48 80h-22l-36-61-36 61z" />
+        <path d="M526 78h24v11h-24z" />
+        <path fillRule="evenodd" d="M630 100V20h62c29 0 45 12 45 31 0 16-10 27-29 30l36 19h-36l-42-31v31zm18-63v29h43c18 0 27-5 27-15 0-9-9-14-27-14z" />
+      </g>
+      <g fill={sub}>
+        <path d="M876 230h-35q-25 0-25 25t25 25h35v-11h-34q-14 0-14-14t14-14h34z" />
+        <path d="M895 280l30-50h20l30 50h-15l-25-36-25 36z" />
+        <path d="M923 261h24v9h-24z" />
+        <path fillRule="evenodd" d="M995 280v-50h40q30 0 30 19 0 15-19 19l23 12h-21l-26-19v19zm13-39v16h27q16 0 16-8t-16-8z" />
+        <path d="M1090 230h60v11h-47v8h42v11h-42v9h47v11h-60z" />
+      </g>
+    </svg>
   )
 }
 
