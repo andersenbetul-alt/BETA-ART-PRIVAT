@@ -518,3 +518,25 @@ CARE 2'nin kendi kod tabanı (Cloudflare Worker + D1, 42 profil, 27 sayfa,
 sunucu taraflı rezervasyon) bu depoda değil; buradaki site o konseptin
 sunucusuz, statik yeniden kurulumudur. Konsept belgesindeki "giriş
 gereksinimi", sunucu tarafı çakışma kontrolü ve gerçek adaptörler burada yok.
+
+## 05.09.2026 (gece, devam) — CARE 2 kaynak teslimi arşivlendi ve site kaynaktan yeniden kuruldu
+
+Kullanıcı 40'a yakın dosya yükledi (v6 konsept/teslim belgeleri, üç dilli site
+metinleri, `build_content.py`/`build_operations.py` üreticileri, `catalog.json` 42
+profil + 113 dil, şema, testler, tasarım notları, SRC-03 dokümantasyonu) ve "bütün
+belgeleri arşivle, numara ver, sonra bu kaynakları kullanarak siteyi yeniden yap" dedi.
+
+- Arşiv: `docs/naviar/care2-teslim/` — 21 kayıt, `NC2-ARS-001…021`, SHA-256'lı dizin
+  (`00_ARSIV-DIZINI.md`, `00_ARSIV-ENVANTERI.json`). Kullanıcının kendi `SHA256SUMS.txt`
+  ile 15/16 eşleşti; `Tasarim-v4.jpg` yüklenmedi.
+- Kaynak kod: `naviar/care2-src/` (orijinaller değişmeden). Teslimde olmayan
+  `styles.css`, `model.js`, `site.js`, `operations.js`, logo ve hero görseli
+  `public/` altında yeniden yazıldı (`BETA-ART-NOTLAR.md`). `checks/catalog-model.cjs`
+  geçiyor; `checks/static.py` yalnız studio-demo iddiasında duruyor.
+- Site: `python3 build_static.py` → 27 yerel sayfa (NO/EN/TR) + uyumluluk sayfaları.
+  Rezervasyon sunucusuz (localStorage). Beceri `run-care2-src`, smoke 40/40.
+- Dağıtım tarifi `naviar/vercel-care.json` artık `care2-src`'yi Vercel'de derliyor
+  (python3). Bu geceki `naviar/care2` (kendi yazdığım sürüm) depoda kaldı, canlıdan indi.
+- Eksik ve kullanıcıdan istenen: `assets/conversation.webp` (hero fotoğrafı), özgün
+  `assets/logo.svg`, `styles.css`/`site.js`/`model.js`/`operations.js` orijinalleri,
+  `server/operations.mjs`. Gelirse `public/` altındakiler yerini bırakır.
