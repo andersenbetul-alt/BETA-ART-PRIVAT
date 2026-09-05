@@ -28,6 +28,17 @@ alan kişinin onayı"** kanonik anlatımda örtük kalıyor; 4. adım
 metnine açıkça yazılmalı ("dere godkjenner" zaten var; "den som får
 hjelpen, godkjenner besøket" netliği eklenebilir).
 
+## Trygghet sayfasından ek adaylar (05.09 akşam yapıştırması)
+
+| # | Öğe | Öneri |
+|---|---|---|
+| 8 | Üçlü ayrım: **kimlik / güvenilirlik / göreve uygun yetkinlik** ayrı ayrı kontrol edilir; "hiçbir yıldız puanı bunun yerine geçmez" | **TAŞI** — SSS'deki doğrulama yanıtını bu çerçeveye oturt |
+| 9 | **"Del aldri BankID, PIN-kode eller bankkort med en hjelper"** uyarısı + "ek iş ve fiyat işe başlamadan kararlaştırılır" | **TAŞI** — güvenlik satırı olarak; dolandırıcılık önleme pilotta kritik |
+| 10 | Sorun bildirme kategorileri (gelmedi / kapı açılmadı / fazla iş istendi / ödemeye itiraz) | **TAŞI** — konsol Klage akışına hazır kategoriler |
+| 11 | Acil durum ayrımı: "113/110/112 — bu bir acil servis değildir" | **TAŞI** — kanonikte 113 yalnız SSS'de; ayrı görünür satır olmalı |
+| 12 | "ID-kontroll, referanser, opplæring, forsikring og bemannet støtte må være på plass. Dette er ikke bekreftet i prøveversjonen" — dürüst ön koşul listesi | Pilotstatus bölümümüzle birleşir; sigorta kalemi hukuk listesinde zaten |
+| 13 | Yardımcı alım hattı (Bli hjelper sayfası): **søknad → kontaktkontroll → ID → referanser → opplæring → oppgavevurdering**; "başvuru seni göreve hazır yapmaz" dürüstlüğü | **TAŞI** — konsol Hjelpere sekmesine aşama alanı + breakdown'daki yardımcı tarafına bu boru hattı |
+
 ## Karar bekleyenler (sahibi: Betul)
 
 1. Ton: kurumsal mı, sıcak mı, yoksa iki giriş yolu mu?
