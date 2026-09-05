@@ -82,8 +82,10 @@ ağaç bilerek yan yana korunur, birleştirilmez.
   master v0.3 DEĞİLDİR (o hâlâ FILE-016'da, gelmedi); eski site
   logosunun kaynak dosyasıdır.
 - `naviar-care/assets/hverdag.png` — sitedeki kadın fotoğrafı
-  (1536×1024 PNG). Dosya artık depoda; ancak KÖKENİ VE LİSANSI hâlâ
-  kayıtsız — kanonik sitede kullanılmadan önce tamamlanmalı.
+  (1536×1024 PNG). Köken netleşti: DOC-012/04 kaydına göre **yapay
+  zekâ üretimi illüstratif görsel**; sayfada YZ üretimi olduğu
+  belirtilir, gerçek müşteri/ekip fotoğrafı olarak kullanılmaz.
+  Kanonik sitede kullanılırsa aynı etiket şartıyla.
 
 `teslim/`e eklenenler: `DOC-012_TUM-BELGELER_v1.0.html` (20 yeni belge
 + 10 tarihsel kaydın tek dosyalık paketi) ve `BELGE-LISTESI_v1.0.csv`.
@@ -103,6 +105,15 @@ revizyonlar), KOD-DOSYA-LISTESI.csv (131 dosyalık SHA-256 listesi),
 DOGRULAMA-RAPORU, envanter + sağlama dosyaları. Ayrı gönderilen docx
 ve Belge-Listesi HTML kopyaları paket üyeleriyle bayt bayt aynı çıktı;
 tek nüsha paket içinde durur.
+
+## DOC-012 belge paketi (05.09.2026 gece — doc-012-paketi/)
+
+DOC-012 setinin tekil dosyaları parça parça geliyor; her gelen dosya
+paketin kendi `SHA256SUMS.txt`'siyle (45 kayıt) doğrulanarak ekleniyor.
+Şu ana kadar: 00_OKU-BENI, BELGE-LISTESI.md, 01_BELGELER/01–05.
+OKU-BENI'nin ek kontrolleri: 30 rota HTTP 200, 333 anahtar ×3 dil,
+8 tablonun veri sözlüğü, 37 test, kaynak zip 62 dosya SHA-256 eşleşti.
+Birleşik hali zaten `teslim/DOC-012_TUM-BELGELER_v1.0.html`'de.
 
 ## Adlandırma notları
 

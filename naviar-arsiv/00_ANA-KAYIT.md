@@ -43,6 +43,7 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | BA-030 | 02 | `kaynak-v2.4.0/naviar-care/assets/` | hverdag.png (fotoğraf; lisans kaydı YOK) + naviar-care-v03.svg (kucaklaşma-kalp logo) |
 | BA-031 | 02 | `belge-paketi-20260905/` | SRC-03 belge paketi (18 dosya; SHA256 17/17 doğrulandı; CHAT-004 üçlüsü FILE-020…022 dahil) |
 | BA-032 | 02 | `belge-paketi-20260905/01_PROJE_BELGELERI/NAVIAR-CARE_SRC03_Proje-Dokumantasyonu_v1.0.docx` | 29 sayfalık ana proje dokümantasyonu (+ md kaynağı) |
+| BA-033 | 02 | `doc-012-paketi/` | DOC-012 tekil bölümler (SHA256SUMS ile parça parça; fotoğrafın YZ-üretimi kaydı 04'te) |
 | BA-009 | 03 | `docs/CONCEPT.md` | Stüdyo prototip konsepti |
 | BA-010 | 03 | `docs/PLATFORM-DECISION.md` | Platform kararı |
 | BA-011 | 03 | `docs/DECISION-LOG.md` | Karar günlüğü |
@@ -74,4 +75,4 @@ sayılır; tam liste için `git ls-files naviar-arsiv/`.
 | `NAVIAR-CARE-001_master_candidate_v0.3.svg` | FILE-016 | 03/brand |
 | KAYNAK-KOD zip'leri v1.0 ve v2.2 (v2.4.0 GELDİ → BA-029) | FILE-014/019 | 02 |
 | CARE 2: build_content.py, build_operations.py, db/schema.ts, drizzle göçü, dist/ | 04 ARSIV-NOTU | 04 |
-| Kadın fotoğrafının köken/lisans kaydı (dosya geldi: BA-030) | — | 02 |
+| DOC-012 tekil bölümleri 06–20 + 02_DOGRULAMA + TUM-BELGELER md (SHA256SUMS'ta 45 kayıt; 7'si geldi) | — | 02/doc-012-paketi |
