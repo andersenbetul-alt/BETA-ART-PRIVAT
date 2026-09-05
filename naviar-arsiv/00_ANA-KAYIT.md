@@ -21,7 +21,7 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | 03 | `03_care-1-studio-web-2026-002/` | WEB-2026-002 "Hverdagsstøttepilot" statik prototip + **logo v0.2 kaynak SVG** (`brand/`) | `03_…/ARSIV-NOTU.md` |
 | 04 | `04_care-2/` | NAVIAR CARE 2 (NAVIAR-CARE-002) — dil odaklı dijital sağlık konsepti | `04_care-2/ARSIV-NOTU.md` |
 | 05 | `05_consult/` | NAVIAR Consult (P-010 / NVC-001) teslim ve gelişim kayıtları | `05_consult/ARSIV-NOTU.md` |
-| 06 | `06_p011/` | P-011 hattı: STUDIO demo + rapor + kaynak v0.4.0 (53 dosya) | FILE-010/011/012 geldi; COOKIE1 (FILE-007/008) ve TESLIM_RAPORU (FILE-009) bekleniyor |
+| 06 | `06_p011/` | P-011 hattı TAMAM: STUDIO demo/rapor/kaynak + cookie1-arsivi (61 dosyalık resmi paket; FILE-007…012 tümü içinde) | `06_p011/cookie1-arsivi/P-011_COOKIE1_Dosya_Listesi.html` |
 
 ## Numaralı belge kaydı (teslim/tasarım belgeleri)
 
@@ -48,6 +48,7 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | BA-035 | 06 | `NAVIAR-CARE_P-011_STUDIO_DEMO.html` | P-011 etkileşimli stüdyo demosu (FILE-010) |
 | BA-036 | 06 | `NAVIAR-CARE_P-011_STUDIO_RAPORU.md` | P-011 stüdyo raporu v0.4.0 (FILE-012) |
 | BA-037 | 06 | `studio-kaynak-v0.4.0/` | P-011 kaynak kodu v0.4.0 (53 dosya, FILE-011) |
+| BA-040 | 06 | `cookie1-arsivi/` | P-011 COOKIE1 resmi arşivi v1.0 (61 dosya; SHA-256 57/57 doğrulandı; v0.3.0 zip + ONIZLEME + TESLIM_RAPORU + proje belgesi docx/html/md + içerik/API envanterleri) |
 | BA-038 | 01 | `STD-PROJE-001_TUM-PROJELER-STANDARDI.md` | Tüm projeler ortak standardı (FILE-015/RELATED-002) |
 | BA-039 | 02 | `teslim/NAVIAR-CARE_Profesyonel-Surum_Teslim_v2.0.md` | Sürüm 2.0 teslim kaydının müstakil hali (yayın: 05.09 02:59 UTC, kaynak aa4db7b; sürüm 5 hali BA-031 paketinde — özgün ad aynı, ayrım için _v2.0 eki eklendi) |
 | BA-009 | 03 | `docs/CONCEPT.md` | Stüdyo prototip konsepti |
@@ -77,7 +78,6 @@ sayılır; tam liste için `git ls-files naviar-arsiv/`.
 | Beklenen | Master kaydı | Gideceği yer |
 |---|---|---|
 | `01_SOURCE-REGISTER.md` | — | 01 |
-| P-011 COOKIE1 önizleme + zip (v0.3.0) ve TESLIM_RAPORU | FILE-007/008/009 | 06 |
 | TAM-ARSIV zip (245 içerik dosyası; meta seti geldi → 02/tam-arsiv-20260905) | — | 02 |
 | `NAVIAR-CARE-001_master_candidate_v0.3.svg` | FILE-016 | 03/brand |
 | KAYNAK-KOD zip'leri v1.0 ve v2.2 (v2.4.0 GELDİ → BA-029) | FILE-014/019 | 02 |
