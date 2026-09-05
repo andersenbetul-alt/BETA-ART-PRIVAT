@@ -34,6 +34,17 @@ tanım panolardan okunandır, üretim için kaynak dosyalar beklenir.
   kararıdır, tescil edilebilirlik iddiası değildir. Tescil öncesi
   figüratif arama sonucu beklenmeli.
 
+## Güncelleme (05.09.2026 gece): v0.2 kaynak SVG geldi
+
+WEB-2026-002 stüdyo paketiyle logo adayının kaynak dosyası teslim
+edildi: `naviar-care-studio-arsiv/brand/NAVIAR-CARE-001_master_
+candidate_v0.2.svg`. Ancak bu **v0.2**; master dosya kaydı
+(`naviar-master-arsiv/02_FILE-REGISTER.md`, FILE-016) ChatGPT
+arşivinde `NAVIAR-CARE-001_master_candidate_v0.3.svg` bulunduğunu
+söylüyor ve QA panosu v0.3'ü REVISE işaretliyordu. Kanonik
+landing'deki logo değişimi v0.3 gelince yapılmalı; v0.2 acele
+gerekiyorsa ara çözüm olarak kullanılabilir (karar sahibi: Betul).
+
 ## Yapılacaklar
 
 1. **Kullanıcı:** monogram + yazı markası kaynak dosyalarını (SVG
