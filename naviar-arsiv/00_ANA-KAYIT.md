@@ -49,6 +49,7 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | BA-036 | 06 | `NAVIAR-CARE_P-011_STUDIO_RAPORU.md` | P-011 stüdyo raporu v0.4.0 (FILE-012) |
 | BA-037 | 06 | `studio-kaynak-v0.4.0/` | P-011 kaynak kodu v0.4.0 (53 dosya, FILE-011) |
 | BA-038 | 01 | `STD-PROJE-001_TUM-PROJELER-STANDARDI.md` | Tüm projeler ortak standardı (FILE-015/RELATED-002) |
+| BA-039 | 02 | `teslim/NAVIAR-CARE_Profesyonel-Surum_Teslim_v2.0.md` | Sürüm 2.0 teslim kaydının müstakil hali (yayın: 05.09 02:59 UTC, kaynak aa4db7b; sürüm 5 hali BA-031 paketinde — özgün ad aynı, ayrım için _v2.0 eki eklendi) |
 | BA-009 | 03 | `docs/CONCEPT.md` | Stüdyo prototip konsepti |
 | BA-010 | 03 | `docs/PLATFORM-DECISION.md` | Platform kararı |
 | BA-011 | 03 | `docs/DECISION-LOG.md` | Karar günlüğü |
