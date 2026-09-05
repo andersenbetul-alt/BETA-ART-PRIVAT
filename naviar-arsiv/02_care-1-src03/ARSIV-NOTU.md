@@ -89,6 +89,20 @@ ağaç bilerek yan yana korunur, birleştirilmez.
 Paketin tekil `01_BELGELER/*.md` dosyaları ayrıca yüklenmedi; içerik
 birleşik HTML'de korunuyor.
 
+## Belge paketi (05.09.2026 gece — belge-paketi-20260905/)
+
+`NAVIAR-CARE_SRC03_Arsiv_20260905.zip` (arşiv kodu
+NAVIAR-CARE-SRC03-ARSIV-20260905 v1.0) olduğu gibi açıldı; **17/17
+dosya paketin kendi SHA256SUMS.txt'siyle doğrulandı.** İçerik: 29
+sayfalık ana proje dokümantasyonu (docx+md), Tam-Konsept (html+md),
+CHAT-004 üçlüsü (FILE-020/021/022: Profesyonel-Surum_Teslim.md,
+Icerik_NB-EN-TR.csv — 301 kayıt ×3 dil, Kurulum-ve-Kabul.md),
+platform-studio kaydı, PROJE-DUZENI, WEB-VE-KOD-KAYDI (5 sürüm +
+revizyonlar), KOD-DOSYA-LISTESI.csv (131 dosyalık SHA-256 listesi),
+DOGRULAMA-RAPORU, envanter + sağlama dosyaları. Ayrı gönderilen docx
+ve Belge-Listesi HTML kopyaları paket üyeleriyle bayt bayt aynı çıktı;
+tek nüsha paket içinde durur.
+
 ## Adlandırma notları
 
 - Dosyalar yükleme adlarındaki hash önekleri atılarak KODU-CALISTIRMA
