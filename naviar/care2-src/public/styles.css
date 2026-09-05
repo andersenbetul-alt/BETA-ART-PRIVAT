@@ -95,8 +95,8 @@ section.wrap { padding-block: 48px; }
 .hero-proof span { display: inline-flex; align-items: center; gap: 8px; }
 .hero-proof svg { color: var(--forest-2); }
 .hero-figure { margin: 0; }
-.photo-frame { position: relative; border-radius: 999px 999px var(--r-lg) var(--r-lg); overflow: hidden; background: var(--soft); aspect-ratio: 4 / 5; }
-.photo-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-frame { position: relative; border-radius: var(--r-lg) 220px var(--r-lg) var(--r-lg); overflow: hidden; background: var(--soft); aspect-ratio: 6 / 5; }
+.photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block; }
 .photo-note { position: absolute; inset-inline: 18px; bottom: 18px; background: rgba(251,250,246,.94); border-radius: var(--r-lg); padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start; }
 .photo-note strong { display: block; font-family: var(--serif); font-size: 1.1rem; font-weight: 400; }
 .photo-note span:not(.note-icon) { color: var(--muted); font-size: .9rem; }

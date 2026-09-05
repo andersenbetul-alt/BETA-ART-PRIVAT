@@ -35,9 +35,27 @@
     if (!store.get('nc2s-measure', null) && ['home', 'about', 'languages'].indexOf(page) > -1) setTimeout(show, 700);
   }
 
-  // ── işletim sayfası (statik sürümde sahip araçları yok) ─────────────────
+  // ── işletim sayfası: statik sürümde yalnız bu tarayıcıdaki test etkinliği ──
+  var NOTE = {
+    nb: ['Statisk utgave: eierverktøy og server finnes ikke. Tallene under gjelder bare testene i denne nettleseren.', 'Testreservasjoner', 'Aktive', 'Avbestilte', 'Simulerte betalinger', 'Målevalg', 'ikke valgt', 'Lagring: nettleseren din (localStorage)', 'Stripe: ikke tilkoblet', 'E-post: bare utkast', 'Prognose: ingen produksjonsdata'],
+    en: ['Static edition: owner tools and server are not present. The figures below cover only the tests in this browser.', 'Test reservations', 'Active', 'Cancelled', 'Simulated payments', 'Measurement choice', 'not chosen', 'Storage: your browser (localStorage)', 'Stripe: not connected', 'Email: drafts only', 'Forecast: no production data'],
+    tr: ['Statik sürüm: sahip araçları ve sunucu yok. Aşağıdaki sayılar yalnızca bu tarayıcıdaki testleri kapsar.', 'Test rezervasyonları', 'Aktif', 'İptal', 'Simüle edilen ödemeler', 'Ölçüm tercihi', 'seçilmedi', 'Depolama: tarayıcınız (localStorage)', 'Stripe: bağlı değil', 'E-posta: yalnızca taslak', 'Tahmin: üretim verisi yok']
+  }[LOCALE] || [];
   if ($('owner-tools')) {
-    $('op-feedback').textContent = L.signIn || '';
+    var all0 = store.get('nc2s-bookings', []), cons = store.get('nc2s-measure', null);
+    $('op-feedback').textContent = NOTE[0];
+    var tools = $('owner-tools'); tools.hidden = false;
+    ['seed-calendar', 'refresh-insights'].forEach(function (id) { var e = $(id); if (e) e.hidden = true; });
+    var sum = $('operations-summary'); if (sum) {
+      clear(sum); var dl = el('dl');
+      [[NOTE[1], all0.length], [NOTE[2], all0.filter(function (b) { return b.status !== 'cancelled'; }).length], [NOTE[3], all0.filter(function (b) { return b.status === 'cancelled'; }).length],
+       [NOTE[4], all0.filter(function (b) { return /^simulated|^stripe/.test(b.payment || ''); }).length], [NOTE[5], cons ? cons.choice : NOTE[6]]].forEach(function (kv) {
+        dl.appendChild(el('dt', '', kv[0])); dl.appendChild(el('dd', '', String(kv[1])));
+      });
+      sum.appendChild(dl);
+    }
+    var st = $('integration-status'); if (st) { clear(st); [NOTE[7], NOTE[8], NOTE[9], NOTE[10]].forEach(function (t) { st.appendChild(el('li', '', t)); }); }
+    var mt = $('metrics-table'); if (mt) { clear(mt); mt.appendChild(el('p', 'quiet', L.noMetrics || '')); }
     return;
   }
 
@@ -127,6 +145,12 @@
         var cx = el('button', 'text-link', L.cancel || 'Cancel'); cx.type = 'button';
         cx.addEventListener('click', function () { b.status = 'cancelled'; if (b.payment === 'stripe_test_paid') b.payment = 'test_refund_review'; save(all); fb.textContent = L.cancelled || ''; renderSlots(); renderLists(); });
         acts.appendChild(cx);
+        if (s) {
+          var ics = el('a', 'text-link', L.ics || 'ICS'); ics.download = 'naviar-care-2-test.ics';
+          var end = s.starts + 20 * 60000, stamp = function (ms) { return new Date(ms).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''); };
+          ics.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//NAVIAR CARE 2//test//', 'BEGIN:VEVENT', 'UID:' + b.id + '@naviar-care-2', 'DTSTAMP:' + stamp(Date.now()), 'DTSTART:' + stamp(s.starts), 'DTEND:' + stamp(end), 'SUMMARY:NAVIAR CARE 2 – ' + (L.active || 'test'), 'DESCRIPTION:' + (L.confirmed || '').replace(/,/g, '\\,'), 'END:VEVENT', 'END:VCALENDAR'].join('\r\n'));
+          acts.appendChild(ics);
+        }
         if (b.payment === 'none') {
           var ok = el('button', 'button secondary', L.simulateSuccess || ''); ok.type = 'button';
           ok.addEventListener('click', function () { b.payment = 'simulated_success'; save(all); fb.textContent = L.simulated_success || ''; renderLists(); });

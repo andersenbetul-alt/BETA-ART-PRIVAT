@@ -164,7 +164,28 @@
    "tur": "Geçmiş kayıt · tasarım v4 görseli (ZIP paketinden)",
    "bayt": 114035,
    "sha256": "b78fdd7da7e74f018b3763e735b149a660c41f47a55853c5c0cad1882dccd0e1"
+  },
+  {
+   "no": "NC2-ARS-024",
+   "dosya": "NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v7.md",
+   "tur": "Güncel teslim · v7 statik sürüm (BETA-ART, Markdown)",
+   "bayt": 33216,
+   "sha256": "1e18a233922406a52079f31224edc15aa1ef233df00dcdf1087fd6d312b5a39c"
+  },
+  {
+   "no": "NC2-ARS-025",
+   "dosya": "NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v7.html",
+   "tur": "Güncel teslim · v7 statik sürüm (BETA-ART)",
+   "bayt": 40312,
+   "sha256": "c7a0f0ea7bf9c66c1a167ffcb871e04090b17de8d7892f19f81e4f12eed51ee5"
+  },
+  {
+   "no": "NC2-ARS-026",
+   "dosya": "NAVIAR-CARE-002_Web-Sitesi-Metinleri_NO-EN-TR_v7.html",
+   "tur": "Güncel teslim · v7 · statik sürümden üretilen üç dilli site metinleri",
+   "bayt": 91456,
+   "sha256": "8dd4be44cb2666b251e74c28ea11ef9e20ff2074e77e1e19f0b8378ea30377c5"
   }
  ],
- "not": "Kullanıcı arşiv revizyonu 2 (17 dosya): ZIP paketiyle 17/17 tamamlandı ve SHA256SUMS ile doğrulandı."
+ "not": "Kullanıcı arşiv revizyonu 2 (17 dosya) tamamen alındı (SHA256SUMS 17/17). v7 belgeleri BETA-ART statik sürümü için üretildi; v6 özgün teslim değişmedi."
 }

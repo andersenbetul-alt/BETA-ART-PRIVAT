@@ -6,10 +6,10 @@ dosyalar; adlar kullanıcının kendi arşiv dizinindeki (`NAVIAR-CARE-002_Arsiv
 son dosya `NAVIAR-CARE-002-Tasarim-v4.jpg` ZIP paketiyle geldi).  Numaralar bu deponun sırasıdır; kullanıcının
 belge kodları (DOS/REV/SRC/REG) dosya adında durur ve değiştirilmez.
 
-Eksik olanlar (yüklenmedi): `assets/conversation.webp` (hero görseli), `assets/logo.svg`
-(özgün logo), `styles.css`, `site.js`, `model.js`, `operations.js`, `studio.js`,
-`sample-calendar.js`, `server/operations.mjs`, `server/forecast.mjs`.
-Site yeniden kurulumunda bunlar `naviar/care2-src/public/` altında yeniden yazıldı.
+Teslim paketinde bulunmayan ön yüz dosyaları (`styles.css`, `site.js`, `model.js`, `operations.js`,
+`studio.js`, `sample-calendar.js`) ve sunucu (`server/*.mjs`) `naviar/care2-src/public/` altında
+yeniden yazıldı; özgün `logo.svg` ve `conversation.webp` arşivdeki Studio-Demo dosyasının içinden
+çıkarıldı. v7 belgeleri (NC2-ARS-025…027) bu statik sürümü anlatır.
 
 | No | Dosya | Tür | Bayt | SHA-256 |
 |---|---|---|---|---|
@@ -36,5 +36,8 @@ Site yeniden kurulumunda bunlar `naviar/care2-src/public/` altında yeniden yaz�
 | NC2-ARS-021 | `naviar/care2-src/ (kaynak kod, 27 dosya)` | Kaynak kod · v6 teslimi (üretici, katalog, şema, testler, tasarım notları) | 415338 | `—…` |
 | NC2-ARS-022 | `NAVIAR-CARE-2-demo.html` | Geçmiş demo tasarımı · ayrı klasörden (arşiv rev. 2) | 21769 | `31edf417a62aad3c…` |
 | NC2-ARS-023 | `NAVIAR-CARE-002-Tasarim-v4.jpg` | Geçmiş kayıt · tasarım v4 görseli (ZIP paketinden) | 114035 | `b78fdd7da7e74f01…` |
+| NC2-ARS-024 | `NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v7.md` | Güncel teslim · v7 statik sürüm (BETA-ART, Markdown) | 33216 | `1e18a233922406a5…` |
+| NC2-ARS-025 | `NAVIAR-CARE-002_Konsept-ve-Web-Teslimi_v7.html` | Güncel teslim · v7 statik sürüm (BETA-ART) | 40312 | `c7a0f0ea7bf9c66c…` |
+| NC2-ARS-026 | `NAVIAR-CARE-002_Web-Sitesi-Metinleri_NO-EN-TR_v7.html` | Güncel teslim · v7 · statik sürümden üretilen üç dilli site metinleri | 91456 | `8dd4be44cb2666b2…` |
 
 Tam SHA-256 değerleri `00_ARSIV-ENVANTERI.json` içinde.

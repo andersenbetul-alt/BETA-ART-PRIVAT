@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="NAVIAR CARE 2: üç dilde randevu deneyimi. Kişisel bilgi istemeyen etkileşimli tasarım demosu.">
+  <meta name="theme-color" content="#133f38">
+  <title>NAVIAR CARE 2 · Tasarım demosu</title>
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="studio.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-copy="skip">İçeriğe geç</a>
+  <div class="demo-band"><div class="wrap"><strong data-copy="demo">TASARIM DEMOSU</strong><span data-copy="demoNote">Gerçek randevu alınmaz. Kişisel bilgi istenmez.</span></div></div>
+  <header class="wrap header">
+    <a class="brand" id="site-home" href="/tr/" aria-label="NAVIAR CARE 2" data-aria="siteHome"><img class="brand-logo" src="/assets/logo.svg" width="210" height="60" alt="NAVIAR CARE"><span class="brand-edition">2</span></a>
+    <nav aria-label="Site dili" data-aria="siteLanguage" class="locale-nav">
+      <button type="button" data-locale="nb" lang="nb" aria-pressed="false">Norsk</button>
+      <button type="button" data-locale="en" lang="en" aria-pressed="false">English</button>
+      <button type="button" data-locale="tr" lang="tr" aria-pressed="true">Türkçe</button>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap introduction"><div><p class="eyebrow" data-copy="eyebrow">DİJİTAL GÖRÜŞME · NORVEÇ</p><h1 data-copy="headline">Kendinizi rahatça<br>ifade edin.</h1></div><div class="intro-note"><p data-copy="intro">Doktor görüşmesine, kendinizi rahat ifade ettiğiniz dilde erişim için tasarlanan hizmeti keşfedin.</p><a href="#scope" data-copy="scopeLink">Hizmetin kapsamını öğrenin</a></div></div>
+    <div class="wrap workspace">
+      <aside class="service-card" aria-labelledby="service-title">
+        <p class="eyebrow" data-copy="serviceEyebrow">GÖRÜŞMEDEN ÖNCE</p>
+        <h2 id="service-title" data-copy="serviceTitle">Önce anlaşılmak.</h2>
+        <p data-copy="serviceText">Dil tercihiniz, görüşme planlamasının bir parçasıdır. Hekim veya tercüman uygunluğu ayrıca doğrulanmalıdır.</p>
+        <dl class="service-facts"><div><dt data-copy="formatLabel">Görüşme</dt><dd data-copy="formatValue">Video · hizmet taslağı</dd></div><div><dt data-copy="durationLabel">Örnek süre</dt><dd data-copy="durationValue">20 dakika</dd></div><div><dt data-copy="priceLabel">Gerçek hizmet ücreti</dt><dd data-copy="priceValue">Henüz belirlenmedi</dd></div></dl>
+        <figure><img src="/assets/conversation.webp" width="640" height="450" alt="" loading="lazy"><figcaption data-copy="imageNote">Temsili, yapay zekâ ile oluşturulmuş görsel.</figcaption></figure>
+      </aside>
+      <section class="booking" aria-labelledby="flow-title">
+        <div class="booking-heading"><p class="eyebrow" data-copy="flowEyebrow">RANDEVU DENEYİMİ</p><span class="test-pill" data-copy="testOnly">Yalnızca deneme</span></div>
+        <h2 id="flow-title" data-copy="flowTitle">Nasıl işleyeceğini deneyin.</h2>
+        <ol class="stepper" aria-label="Adımlar" data-aria="stepsLabel"><li data-step="1" aria-current="step"><span>1</span><b data-copy="step1">Seçin</b></li><li data-step="2"><span>2</span><b data-copy="step2">Kontrol edin</b></li><li data-step="3"><span>3</span><b data-copy="step3">Örneği görün</b></li></ol>
+        <div id="flow-error" class="error" role="alert" tabindex="-1" hidden></div>
+        <div id="choose-panel">
+          <label class="field-label" for="care-language" data-copy="careLanguage">Hangi dilde görüşmek istersiniz?</label>
+          <select id="care-language" aria-describedby="language-help"><option value="tr">Türkçe</option><option value="nb">Norsk bokmål</option><option value="en">English</option></select>
+          <p class="help" id="language-help" data-copy="languageHelp">Bu seçim yalnızca deneme içindir; uygun hekim bulunduğu anlamına gelmez.</p>
+          <fieldset><legend data-copy="dayLabel">Örnek gün seçin</legend><div class="day-grid" id="day-options"></div></fieldset>
+          <fieldset id="time-field"><legend data-copy="timeLabel">Örnek saat seçin</legend><p class="help" data-copy="timezone">Norveç saati · Europe/Oslo</p><p class="help" id="sample-date-note" data-copy="dateNote">Bu günler yalnızca örnektir; gerçek müsaitlik değildir.</p><div class="time-grid" id="time-options"></div><p id="slot-status" class="help" role="status" aria-live="polite"></p></fieldset>
+          <div class="flow-actions"><button type="button" id="continue" class="button primary" data-copy="continue">Seçimimi kontrol et</button><span class="help" data-copy="noPayment">Bu adımda ödeme yapılmaz.</span></div>
+        </div>
+        <div id="review-panel" hidden>
+          <h3 tabindex="-1" id="review-heading" data-copy="reviewTitle">Örnek seçiminiz doğru mu?</h3>
+          <dl class="summary" id="review-summary"></dl>
+          <p class="notice" data-copy="samplePrice">100 NOK teknik test tutarıdır. Muayene ücreti değildir; karttan çekilmez.</p>
+          <label class="ack"><input type="checkbox" id="ack"><span data-copy="ack">Bunun gerçek bir sağlık randevusu oluşturmadığını anlıyorum.</span></label>
+          <div class="flow-actions"><button type="button" class="button primary" id="confirm" data-copy="confirm">Örnek onayı göster</button><button type="button" class="button secondary" id="back" data-copy="back">Seçimi değiştir</button></div>
+        </div>
+        <div id="done-panel" hidden>
+          <span class="done-symbol" aria-hidden="true">✓</span><h3 tabindex="-1" id="done-heading" data-copy="doneTitle">Örnek akışı tamamladınız.</h3>
+          <p data-copy="doneText">Gerçek randevu oluşturulmadı. Örneğiniz sadece açık sayfada bulunur; yenileyince silinir.</p>
+          <dl class="summary" id="done-summary"></dl>
+          <div class="demo-tools"><h4 data-copy="paymentTitle">Ödeme sonucu örneği</h4><p class="help" data-copy="samplePrice">100 NOK teknik test tutarıdır. Muayene ücreti değildir; karttan çekilmez.</p><div class="flow-actions"><button class="button secondary" type="button" id="payment-success" data-copy="paySuccess">Başarılı sonuç</button><button class="button secondary" type="button" id="payment-failure" data-copy="payFailure">Başarısız sonuç</button></div><p id="payment-status" class="help" role="status" aria-live="polite"></p></div>
+          <div class="flow-actions"><button type="button" class="button primary" id="email-preview" data-copy="emailPreview">E-posta örneğini gör</button><button type="button" class="button secondary" id="restart" data-copy="restart">Yeniden dene</button></div>
+          <p class="help"><a id="saved-booking" href="/tr/booking/" data-copy="savedBooking">Kalıcı test rezervasyonunu deneyin</a> · <a id="back-to-site" href="/tr/" data-copy="backToSite">Siteye dön</a></p>
+        </div>
+        <p class="local-note" data-copy="localNote">Bu demo sağlık bilgisi, ad, e-posta veya kart bilgisi istemez.</p>
+      </section>
+    </div>
+    <section id="scope" class="wrap scope" aria-labelledby="scope-title"><div><p class="eyebrow" data-copy="scopeEyebrow">HİZMETİ TANIYIN</p><h2 id="scope-title" data-copy="scopeTitle">Bir sonraki adım<br>açık olsun.</h2></div><div class="faq"><details><summary data-copy="q1">Bu hizmet bugün kullanılabilir mi?</summary><p data-copy="a1">Henüz değil. Bu, Norveç için hazırlanan bir hizmet tasarımıdır. Gerçek doktor takvimi, klinik sorumluluk, fiyat ve dil kapasitesi açılıştan önce doğrulanmalıdır.</p></details><details><summary data-copy="q2">Site dili ile görüşme dili aynı şey mi?</summary><p data-copy="a2">Hayır. Üstteki dil seçimi sayfanın metinlerini değiştirir. Formdaki dil tercihi ise örnek görüşme içindir. Hiçbiri belirli bir dilde hekim veya tercüman bulunduğunu garanti etmez.</p></details><details><summary data-copy="q3">Görüşme sonrasında ne olacak?</summary><p data-copy="a3">Planlanan hizmette, sonraki adım ve takip sorumlusu görüşme sonunda açıklanmalıdır. Bu demo tanı, tedavi, reçete veya tıbbi takip sağlamaz.</p></details><details><summary data-copy="q4">Seçimlerim kaydediliyor mu?</summary><p data-copy="a4">Bu tasarım demosundaki seçimler açık sayfanın belleğinde tutulur ve yenileyince silinir. Demo ölçüm veya form verisi göndermez. Barındırma hizmetinin erişim kayıtları ayrı bir konudur.</p></details></div></section>
+    <section class="wrap emergency"><div><strong data-copy="urgentTitle">Norveç'te acil yardıma mı ihtiyacınız var?</strong><p data-copy="urgentText">Hayati tehlikede 113. Hekiminize ulaşamıyorsanız ve yardım bekleyemiyorsa legevakt: 116 117.</p></div><div class="emergency-links"><a href="tel:113">113</a><a href="tel:116117">116 117</a><a class="source" href="https://www.helsenorge.no/en/help-services-in-the-municipalities/out-of-hours-medical-service/" data-copy="urgentSource">Helsenorge bilgisi</a></div></section>
+  </main>
+  <footer class="wrap footer"><span data-copy="footer">DEMO · Kayıt oluşturmaz · Eylül 2026</span></footer>
+  <dialog id="email-dialog" aria-labelledby="email-title"><p class="eyebrow" data-copy="draft">ÖRNEK · GÖNDERİLMEDİ</p><h2 id="email-title" data-copy="emailTitle">Örnek yolculuk özetiniz</h2><p data-copy="emailLead">Bu mesaj yalnızca önizlemedir. Bir alıcıya gönderilmez.</p><div id="email-content"></div><p class="help" data-copy="emailFoot">Bu bir sağlık randevusu onayı değildir. Ödeme alınmadı.</p><button type="button" class="button secondary" id="close-email" data-copy="close">Kapat</button></dialog>
+<script src="sample-calendar.js"></script>
+<script src="studio.js"></script>
+</body></html>

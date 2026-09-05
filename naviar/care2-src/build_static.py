@@ -2,9 +2,10 @@
 
 Kaynak teslimin kendi üreticilerini (build_content.py, build_operations.py) olduğu gibi
 çalıştırır, sonra public/ altındaki eksik dosyaları dist/'e ekler ve iki yolu düzeltir:
-  - /studio-demo/  (kaynakta ayrı statik sayfa + studio.js; teslimde yok) → o dilin /journey/ sayfası
-  - /assets/conversation.webp (KI görseli; teslimde yok) → public/assets/conversation.svg yer tutucu
-    (gerçek webp public/assets/ altına konursa dokunulmaz)
+  - /studio-demo/  public/studio-demo/ varsa olduğu gibi kalır (arşivdeki Studio-Demo v1.0'dan
+    SampleCalendar ile kuruldu); yoksa o dilin /journey/ sayfasına çevrilir
+  - /assets/conversation.webp  public/assets/ altında varsa (arşivdeki Studio-Demo'dan çıkarıldı)
+    olduğu gibi; yoksa conversation.svg yer tutucu
 Sunucu (server/operations.mjs, D1) bu depoda yok; public/operations.js tarayıcı depolamasıyla çalışır.
 Kullanım: python3 build_static.py   → dist/
 """
@@ -21,11 +22,12 @@ for script in ('build_content.py', 'build_operations.py'):
 
 shutil.copytree(PUBLIC, OUT, dirs_exist_ok=True)
 has_webp = (OUT / 'assets' / 'conversation.webp').exists()
+has_studio = (OUT / 'studio-demo' / 'index.html').exists()
 JOURNEY = {'nb': '/journey/', 'en': '/en/journey/', 'tr': '/tr/journey/'}
 n = 0
 for p in OUT.rglob('*.html'):
     s = p.read_text(encoding='utf-8'); o = s
-    s = re.sub(r'/studio-demo/\?lang=(nb|en|tr)', lambda m: JOURNEY[m.group(1)], s)
+    if not has_studio: s = re.sub(r'/studio-demo/\?lang=(nb|en|tr)', lambda m: JOURNEY[m.group(1)], s)
     if not has_webp: s = s.replace('/assets/conversation.webp', '/assets/conversation.svg')
     if s != o: p.write_text(s, encoding='utf-8'); n += 1
-print(f'build_static: public/ kopyalandı, {n} sayfada yol düzeltildi, hero = {"webp" if has_webp else "svg yer tutucu"}')
+print(f'build_static: public/ kopyalandı, {n} sayfada yol düzeltildi, hero = {"webp" if has_webp else "svg yer tutucu"}, studio-demo = {"var" if has_studio else "journey yönlendirmesi"}')

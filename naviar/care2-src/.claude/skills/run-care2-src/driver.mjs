@@ -68,7 +68,11 @@ if (KIP === 'shot') {
   let kalan = 0;
   const kontrol = (ad, k, ek = '') => { console.log((k ? '✅ ' : '❌ ') + ad + (ek ? ' → ' + String(ek).trim().split('\n').slice(-1)[0] : '')); if (!k) kalan++; };
   const bd = build();
-  kontrol('build_static.py: 27 yerel sayfa üretildi', bd.code === 0 && /27 pages/.test(bd.out), bd.out);
+  kontrol('build_static.py: 27 yerel sayfa, hero webp, studio-demo var', bd.code === 0 && /27 pages/.test(bd.out) && /hero = webp, studio-demo = var/.test(bd.out), bd.out);
+  const st = spawnSync('python3', ['checks/static.py'], { cwd: SRC, encoding: 'utf8' });
+  kontrol('checks/static.py (27 + 9 sayfa)', st.status === 0 && /PASS/.test(st.stdout), st.stdout + st.stderr);
+  const sc = spawnSync('node', ['--test', 'checks/sample-calendar.test.mjs'], { cwd: SRC, encoding: 'utf8' });
+  kontrol('checks/sample-calendar.test.mjs (Oslo, yıl, DST)', sc.status === 0, sc.stdout + sc.stderr);
   const cm = spawnSync('node', ['checks/catalog-model.cjs'], { cwd: SRC, encoding: 'utf8' });
   kontrol('checks/catalog-model.cjs (42 profil, 113 dil, 12 fark)', cm.status === 0 && /PASS/.test(cm.stdout), cm.stdout + cm.stderr);
 
@@ -106,7 +110,32 @@ if (KIP === 'shot') {
   kontrol('ölçüm reddi kaydedildi ve panel kapandı', (await p.locator('#measurement-panel').isHidden()) && (await p.evaluate(() => !!localStorage.getItem('nc2s-measure'))));
   await p.click('details.locale summary');
   kontrol('dil menüsü 3 bağlantı, Türkçe → /tr/', (await p.locator('details.locale nav a').count()) === 3 && (await p.locator('details.locale nav a[lang="tr"]').getAttribute('href')) === '/tr/');
-  kontrol('hero CTA journey sayfasına gider (studio-demo yok)', (await p.locator('.hero-actions a.button').getAttribute('href')) === '/journey/');
+  kontrol('hero CTA /studio-demo/?lang=nb', (await p.locator('.hero-actions a.button').getAttribute('href')) === '/studio-demo/?lang=nb');
+  kontrol('hero görseli conversation.webp yüklendi', await p.evaluate(() => { const i = document.querySelector('.photo-frame img'); return i.naturalWidth === 1000 && i.naturalHeight === 1250; }));
+  kontrol('logo /assets/logo.svg (hibrit işaret)', (await p.locator('.brand img').getAttribute('src')) === '/assets/logo.svg');
+
+  // studio-demo (bellek içi kısa örnek)
+  await git(p, '/studio-demo/?lang=tr');
+  kontrol('studio-demo: Türkçe, 3 örnek gün, bugünden sonraki günler', (await p.evaluate(() => document.documentElement.lang)) === 'tr' && (await p.locator('#day-options input').count()) === 3
+    && await p.evaluate(() => { const d = SampleCalendar.sampleDays(new Date()); return d[0] > Date.now() - 864e5 && document.getElementById('sample-date-note').textContent.length > 10; }));
+  await p.click('#continue');
+  kontrol('  saat seçmeden devam → hata', await p.locator('#flow-error').isVisible());
+  await p.check('#time-options input[value="09:30"]');
+  await p.click('#continue');
+  kontrol('  gözden geçir: özet yıl ve Europe/Oslo içerir, UTC+02 yok', /20\d\d/.test(await p.locator('#review-summary').innerText()) && /Europe\/Oslo/.test(await p.locator('#review-summary').innerText()) && !/UTC\+02/.test(await p.locator('body').innerText()));
+  await p.click('#confirm');
+  kontrol('  onaysız → hata', await p.locator('#flow-error').isVisible());
+  await p.check('#ack'); await p.click('#confirm');
+  kontrol('  örnek onay ekranı', await p.locator('#done-panel').isVisible());
+  await p.click('#payment-success');
+  kontrol('  ödeme sonucu: 100 NOK tahsil edilmedi', /100 NOK/.test(await p.locator('#payment-status').innerText()));
+  await p.click('#email-preview');
+  kontrol('  e-posta önizleme dialogu', (await p.locator('#email-dialog[open]').count()) === 1);
+  await p.click('#close-email');
+  kontrol('  siteye dön / kalıcı rezervasyon bağlantıları Türkçe yollara', (await p.locator('#back-to-site').getAttribute('href')) === '/tr/' && (await p.locator('#saved-booking').getAttribute('href')) === '/tr/booking/');
+  await p.click('[data-locale="nb"]');
+  kontrol('  dil değişimi nb: html lang, site-home /', (await p.evaluate(() => document.documentElement.lang)) === 'nb' && (await p.locator('#site-home').getAttribute('href')) === '/');
+  await p.screenshot({ path: `${OUT}/smoke-studio-demo.png`, fullPage: true });
   await p.screenshot({ path: `${OUT}/smoke-home.png`, fullPage: true });
 
   // örnek: URL parçası
@@ -177,8 +206,11 @@ if (KIP === 'shot') {
   await p.screenshot({ path: `${OUT}/smoke-booking-tr.png`, fullPage: true });
   await p.click('#delete-test-data');
   kontrol('  sil → boş', (await p.locator('.booking-item').count()) === 0);
-  await git(p, '/insights/');
-  kontrol('insights: sahip araçları gizli, giriş mesajı', await p.locator('#owner-tools').isHidden() && (await p.locator('#op-feedback').innerText()).length > 0);
+  await p.click('.slot >> nth=2'); await p.check('#test-ack'); await p.click('#reserve-test');
+  kontrol('  takvim dosyası (ICS) bağlantısı', (await p.locator('.booking-item a[download]').getAttribute('href')).startsWith('data:text/calendar'));
+  await git(p, '/tr/insights/');
+  kontrol('insights: statik özet (1 test rezervasyonu), Stripe bağlı değil', await p.locator('#owner-tools').isVisible() && /1/.test(await p.locator('#operations-summary dd').first().innerText()) && /Stripe/.test(await p.locator('#integration-status').innerText()));
+  await p.screenshot({ path: `${OUT}/smoke-insights-tr.png`, fullPage: true });
   await ctx.close();
 
   // mobil
