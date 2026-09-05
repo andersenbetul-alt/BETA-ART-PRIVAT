@@ -13,3 +13,6 @@ paket/
 
 # NAVIAR CARE 2 kaynak sürümü: üretilen çıktı
 naviar/care2-src/dist/
+
+# skill-creator çalışma alanı
+.claude/skills/*-workspace/

@@ -1,0 +1,157 @@
+{
+ "proje": "PROJE-X",
+ "kod": "PX-ARS",
+ "kayitlar": [
+  {
+   "no": "PX-ARS-001",
+   "dosya": "notlar.md",
+   "tur": "İncelenecek",
+   "bayt": 31,
+   "sha256": "02b604c06a0a5dd076918a925f024aec145c3f8c88f6a167c8640d2de455c763",
+   "yukleme_adi": "notlar.md",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/0a1b2c3d-notlar.md"
+  },
+  {
+   "no": "PX-ARS-002",
+   "dosya": "PROJE-X_Konsept-ve-Teslim_v2.html",
+   "tur": "Güncel teslim · v2",
+   "bayt": 255,
+   "sha256": "e273199ed1096d76f1110be58a52f16563e737f4f7edc1929dad4efa3c3b97d8",
+   "yukleme_adi": "PROJEX_KonseptveTeslim_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/1a2b3c4d-PROJEX_KonseptveTeslim_v2.html"
+  },
+  {
+   "no": "PX-ARS-003",
+   "dosya": "PROJE-X_Site-Metinleri_v2.md",
+   "tur": "Güncel teslim · v2",
+   "bayt": 48,
+   "sha256": "5ae1074e3c4e3ff33534f6b9a489bb8a1c4d523d1aaef272acd398969c6151e3",
+   "yukleme_adi": "PROJEX_SiteMetinleri_v2.md",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/3f4a5b6c-PROJEX_SiteMetinleri_v2.md"
+  },
+  {
+   "no": "PX-ARS-004",
+   "dosya": "PROJEX_ArsivDizini_v2.html",
+   "tur": "İncelenecek",
+   "bayt": 689,
+   "sha256": "56fb6e92cac5c1f420687587f76a40d158bca2ae63b89c58c007974828014e82",
+   "yukleme_adi": "PROJEX_ArsivDizini_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/7d8e9f0a-PROJEX_ArsivDizini_v2.html"
+  },
+  {
+   "no": "PX-ARS-005",
+   "dosya": "PROJE-X_Tasarim-Demo_v1.html",
+   "tur": "Geçmiş kayıt · özgün dosya",
+   "bayt": 487,
+   "sha256": "c37f19c6bba18a32f5dca7cbd97498b7a619d93c5e52338c63588e8130503d5e",
+   "yukleme_adi": "PROJEX_TasarimDemo_v1.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/9c0d1e2f-PROJEX_TasarimDemo_v1.html"
+  },
+  {
+   "no": "PX-ARS-006",
+   "dosya": "PROJEX_Envanter_v2.json",
+   "tur": "İncelenecek",
+   "bayt": 839,
+   "sha256": "36666975f07685da7933e4e38b760d0bf29887d4081a1b614ccb3a552e381bb0",
+   "yukleme_adi": "PROJEX_Envanter_v2.json",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/c9d8e7f6-PROJEX_Envanter_v2.json"
+  },
+  {
+   "no": "PX-ARS-007",
+   "dosya": "SHA256SUMS.txt",
+   "tur": "İncelenecek",
+   "bayt": 379,
+   "sha256": "d2156f3a584d3f9079da362fda7f6f84b245f90942b262619f82caacf54f33fe",
+   "yukleme_adi": "SHA256SUMS.txt",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/f5a6b7c8-SHA256SUMS.txt"
+  }
+ ],
+ "kopyalar": [
+  {
+   "dosya": "PROJEX_KonseptveTeslim_v2_1.html",
+   "ayni": "PROJE-X_Konsept-ve-Teslim_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/5e6f7a8b-PROJEX_KonseptveTeslim_v2_1.html"
+  },
+  {
+   "dosya": "PROJEX_ArsivDizini_v2_3.html",
+   "ayni": "PROJEX_ArsivDizini_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/b1c2d3e4-PROJEX_ArsivDizini_v2_3.html"
+  },
+  {
+   "dosya": "notlar.md",
+   "ayni": "notlar.md",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/0a1b2c3d-notlar.md"
+  },
+  {
+   "dosya": "PROJEX_KonseptveTeslim_v2.html",
+   "ayni": "PROJE-X_Konsept-ve-Teslim_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/1a2b3c4d-PROJEX_KonseptveTeslim_v2.html"
+  },
+  {
+   "dosya": "PROJEX_SiteMetinleri_v2.md",
+   "ayni": "PROJE-X_Site-Metinleri_v2.md",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/3f4a5b6c-PROJEX_SiteMetinleri_v2.md"
+  },
+  {
+   "dosya": "PROJEX_KonseptveTeslim_v2_1.html",
+   "ayni": "PROJE-X_Konsept-ve-Teslim_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/5e6f7a8b-PROJEX_KonseptveTeslim_v2_1.html"
+  },
+  {
+   "dosya": "PROJEX_ArsivDizini_v2.html",
+   "ayni": "PROJEX_ArsivDizini_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/7d8e9f0a-PROJEX_ArsivDizini_v2.html"
+  },
+  {
+   "dosya": "PROJEX_TasarimDemo_v1.html",
+   "ayni": "PROJE-X_Tasarim-Demo_v1.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/9c0d1e2f-PROJEX_TasarimDemo_v1.html"
+  },
+  {
+   "dosya": "PROJEX_ArsivDizini_v2_3.html",
+   "ayni": "PROJEX_ArsivDizini_v2.html",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/b1c2d3e4-PROJEX_ArsivDizini_v2_3.html"
+  },
+  {
+   "dosya": "PROJEX_Envanter_v2.json",
+   "ayni": "PROJEX_Envanter_v2.json",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/c9d8e7f6-PROJEX_Envanter_v2.json"
+  },
+  {
+   "dosya": "SHA256SUMS.txt",
+   "ayni": "SHA256SUMS.txt",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/f5a6b7c8-SHA256SUMS.txt"
+  }
+ ],
+ "disarida": [
+  {
+   "dosya": ".env",
+   "neden": "gizli bilgi görünümü (ad ya da içerik)",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/e4d3c2b1-.env"
+  },
+  {
+   "dosya": ".env",
+   "neden": "gizli bilgi görünümü (ad ya da içerik)",
+   "kaynak": ".claude/skills/teslim-arsivle/evals/files/teslim-ornek/yuklemeler/e4d3c2b1-.env"
+  }
+ ],
+ "dogrulama": [
+  {
+   "dosya": "PROJE-X_Konsept-ve-Teslim_v2.html",
+   "durum": "OK"
+  },
+  {
+   "dosya": "PROJE-X_Tasarim-Demo_v1.html",
+   "durum": "OK"
+  },
+  {
+   "dosya": "PROJE-X_Site-Metinleri_v2.md",
+   "durum": "OK"
+  },
+  {
+   "dosya": "PROJE-X_Ek-Tablo_v2.md",
+   "durum": "EKSİK"
+  }
+ ],
+ "tarih": "2026-09-05"
+}

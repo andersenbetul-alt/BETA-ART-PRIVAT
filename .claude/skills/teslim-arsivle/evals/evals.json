@@ -1,0 +1,65 @@
+{
+  "skill_name": "teslim-arsivle",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Bu oturumda PROJE-X için yüklediğim dosyalar `evals/files/teslim-ornek/yuklemeler/` klasöründe (ChatGPT'den parça parça geldi, bazılarını iki kez yükledim, adlarının başında rastgele önekler var). Bunları `docs/proje-x/teslim-v2/` altına arşivle, her dosyaya numara ver, bütünlüğü kontrol et ve bana neyin eksik olduğunu, neyin kopya olduğunu söyle. Dosyalar bayt bayt korunsun.",
+      "expected_output": "Numaralı arşiv dizini (00_ARSIV-DIZINI.md + JSON): 7 kayıt PX-ARS-001…007 (Konsept, Tasarım demosu, Site metinleri, Arşiv dizini, Envanter, SHA256SUMS, notlar); 2 kopya ayıklanmış; .env dışarıda; SHA256SUMS 3/4 OK ve PROJE-X_Ek-Tablo_v2.md EKSİK diye adıyla söylenmiş; notlar.md 'İncelenecek'; adlar kullanıcının dizinine göre düzeltilmiş (PROJEX_KonseptveTeslim_v2 → PROJE-X_Konsept-ve-Teslim_v2.html).",
+      "files": [
+        "evals/files/teslim-ornek/yuklemeler"
+      ],
+      "assertions": [
+        "docs/proje-x/teslim-v2/ altında insan okunur dizin (.md) ve makine okunur envanter (.json ya da SHA listesi) var",
+        "Yedi benzersiz içeriğin hepsi arşive bayt bayt girmiş (SHA-256 kaynakla eşleşiyor)",
+        "Aynı içerik arşive ikinci kez kopyalanmamış (kopyalar ayıklanmış)",
+        ".env (sk_live_ anahtarı) arşive kopyalanmamış",
+        "Rapor .env dosyasının dışarıda bırakıldığını söylüyor",
+        "Rapor iki kopyayı adıyla söylüyor (KonseptveTeslim_v2_1, ArsivDizini_v2_3)",
+        "SHA256SUMS doğrulaması yapılmış ve PROJE-X_Ek-Tablo_v2.md eksik diye adıyla raporlanmış",
+        "Konsept dosyası kullanıcının dizinindeki adla arşivlenmiş: PROJE-X_Konsept-ve-Teslim_v2.html",
+        "Dizinde en az yedi PX-ARS-NNN numarası ve her kayıt için SHA-256 var",
+        "notlar.md için tür uydurulmamış (\"Güncel teslim\"/\"Geçmiş kayıt\" verilmemiş)",
+        "Kaynak klasör (yuklemeler/) değiştirilmemiş: 10 dosya, özetler aynı"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "PROJE-X belge arşivinin ZIP'i geldi: `evals/files/teslim-ornek/PROJE-X_Belge-Arsivi_v2.zip`. Daha önce arşivlediğim klasör `evals/files/teslim-ornek/onceki-arsiv/` (kopyasını `docs/proje-x/teslim-v2/` olarak al ve oraya ekle). ZIP'te hangi dosya yeni, hangileri zaten vardı? Numaralar kaldığı yerden devam etsin, eski kayıtlar değişmesin; SHA256SUMS listesini de yeniden doğrula.",
+      "expected_output": "Mevcut 7 kayıt aynen kalır; tek yeni kayıt PX-ARS-008 PROJE-X_Ek-Tablo_v2.md; ZIP'teki diğer dosyalar 'zaten vardı' (kopya) olarak raporlanır; SHA256SUMS 4/4 OK; dizin ve JSON güncellenmiş.",
+      "files": [
+        "evals/files/teslim-ornek/PROJE-X_Belge-Arsivi_v2.zip",
+        "evals/files/teslim-ornek/onceki-arsiv"
+      ],
+      "assertions": [
+        "Önceki yedi kayıt (PX-ARS-001…007) numara, ad ve SHA ile aynen korunmuş",
+        "Önceki yedi dosya arşiv klasöründe bayt bayt duruyor",
+        "PROJE-X_Ek-Tablo_v2.md arşive bayt bayt eklenmiş",
+        "Yeni kayıt PX-ARS-008 numarasını almış ve Ek-Tablo'ya bağlı",
+        "ZIP'te zaten var olan dosyalar yeni numara almamış (PX-ARS-009 ve sonrası yok)",
+        "Rapor Ek-Tablo'yu tek yeni dosya olarak söylüyor",
+        "Rapor ZIP'teki diğer dört dosyanın zaten arşivde olduğunu adıyla söylüyor",
+        "SHA256SUMS yeniden doğrulanmış ve 4/4 OK raporlanmış (EKSİK yok)",
+        "Envanter JSON güncellenmiş (Ek-Tablo SHA'sı içinde)",
+        "Arşiv tek koşuda genişletilmiş: kopya listesi şişmemiş (önceki 11 + ZIP'ten en çok 4 = ≤15)",
+        "Kaynak klasör (onceki-arsiv/) değiştirilmemiş: 9 dosya"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "PROJE-X tasarım demosu tek bir HTML dosyası olarak geldi: `evals/files/teslim-ornek/yuklemeler/9c0d1e2f-PROJEX_TasarimDemo_v1.html`. İçinde logo ve görsel gömülü olabilir. Dosyayı `docs/proje-x/varliklar/` altına arşivle, gömülü görselleri ayrı dosya olarak çıkar ve bana her birinin türünü ve boyutunu söyle.",
+      "expected_output": "HTML arşivlenmiş (1 kayıt); _gomulu/ altında bir SVG (viewBox 0 0 120 40, başlık 'PROJE-X logo v2') ve bir PNG (16x12) çıkarılmış; boyutlar raporda.",
+      "files": [
+        "evals/files/teslim-ornek/yuklemeler/9c0d1e2f-PROJEX_TasarimDemo_v1.html"
+      ],
+      "assertions": [
+        "Demo HTML docs/proje-x/varliklar/ altına bayt bayt arşivlenmiş",
+        "HTML için PX-ARS-001 kaydı ve SHA-256 dizinde var",
+        "Gömülü SVG ayrı .svg dosyası olarak çıkarılmış (viewBox 0 0 120 40, başlık \"PROJE-X logo v2\")",
+        "Gömülü PNG ayrı .png dosyası olarak çıkarılmış (16×12, geçerli PNG imzası)",
+        "Rapor SVG'nin türünü ve 120×40 boyutunu söylüyor",
+        "Rapor PNG'nin türünü ve 16×12 boyutunu söylüyor",
+        "Kaynak dosya değiştirilmemiş"
+      ]
+    }
+  ]
+}

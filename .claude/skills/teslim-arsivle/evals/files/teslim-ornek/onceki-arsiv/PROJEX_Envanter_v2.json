@@ -1,0 +1,29 @@
+{
+ "project_code": "PROJE-X",
+ "files": [
+  {
+   "file_name": "PROJE-X_Konsept-ve-Teslim_v2.html",
+   "size_bytes": 255,
+   "sha256": "e273199ed1096d76f1110be58a52f16563e737f4f7edc1929dad4efa3c3b97d8",
+   "status": "Güncel teslim · v2"
+  },
+  {
+   "file_name": "PROJE-X_Tasarim-Demo_v1.html",
+   "size_bytes": 487,
+   "sha256": "c37f19c6bba18a32f5dca7cbd97498b7a619d93c5e52338c63588e8130503d5e",
+   "status": "Geçmiş kayıt · özgün dosya"
+  },
+  {
+   "file_name": "PROJE-X_Site-Metinleri_v2.md",
+   "size_bytes": 48,
+   "sha256": "5ae1074e3c4e3ff33534f6b9a489bb8a1c4d523d1aaef272acd398969c6151e3",
+   "status": "Güncel teslim · v2"
+  },
+  {
+   "file_name": "PROJE-X_Ek-Tablo_v2.md",
+   "size_bytes": 53,
+   "sha256": "594aecd29bc04e6a5230a1059376b5ad0776843e4443c04605c42930e0454e70",
+   "status": "Geçmiş kayıt · ek"
+  }
+ ]
+}
