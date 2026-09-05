@@ -157,7 +157,14 @@
    "tur": "Geçmiş demo tasarımı · ayrı klasörden (arşiv rev. 2)",
    "bayt": 21769,
    "sha256": "31edf417a62aad3cd594ca8d4426a8181fe9ce135e647c1e256d047958a4a2ea"
+  },
+  {
+   "no": "NC2-ARS-023",
+   "dosya": "NAVIAR-CARE-002-Tasarim-v4.jpg",
+   "tur": "Geçmiş kayıt · tasarım v4 görseli (ZIP paketinden)",
+   "bayt": 114035,
+   "sha256": "b78fdd7da7e74f018b3763e735b149a660c41f47a55853c5c0cad1882dccd0e1"
   }
  ],
- "not": "Kullanıcı arşiv revizyonu 2 (17 dosya): 16/17 eşleşti; NAVIAR-CARE-002-Tasarim-v4.jpg bu oturuma yüklenmedi."
+ "not": "Kullanıcı arşiv revizyonu 2 (17 dosya): ZIP paketiyle 17/17 tamamlandı ve SHA256SUMS ile doğrulandı."
 }

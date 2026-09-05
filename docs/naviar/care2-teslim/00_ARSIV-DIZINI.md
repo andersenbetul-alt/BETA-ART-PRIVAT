@@ -2,13 +2,13 @@
 
 Proje kodu: NAVIAR-CARE-002. Arşiv tarihi: 05.09.2026. Kaynak: kullanıcının bu oturumda yüklediği
 dosyalar; adlar kullanıcının kendi arşiv dizinindeki (`NAVIAR-CARE-002_Arsiv-Dizini_v6.html`) adlara
-çevrildi, içerikler bayt bayt korundu (SHA-256 aşağıda; `SHA256SUMS.txt` (rev. 2) ile 16/17 eşleşti,
-`NAVIAR-CARE-002-Tasarim-v4.jpg` yüklenmedi).  Numaralar bu deponun sırasıdır; kullanıcının
+çevrildi, içerikler bayt bayt korundu (SHA-256 aşağıda; `SHA256SUMS.txt` (rev. 2) ile 17/17 eşleşti;
+son dosya `NAVIAR-CARE-002-Tasarim-v4.jpg` ZIP paketiyle geldi).  Numaralar bu deponun sırasıdır; kullanıcının
 belge kodları (DOS/REV/SRC/REG) dosya adında durur ve değiştirilmez.
 
 Eksik olanlar (yüklenmedi): `assets/conversation.webp` (hero görseli), `assets/logo.svg`
 (özgün logo), `styles.css`, `site.js`, `model.js`, `operations.js`, `studio.js`,
-`sample-calendar.js`, `server/operations.mjs`, `server/forecast.mjs`, `NAVIAR-CARE-002-Tasarim-v4.jpg`.
+`sample-calendar.js`, `server/operations.mjs`, `server/forecast.mjs`.
 Site yeniden kurulumunda bunlar `naviar/care2-src/public/` altında yeniden yazıldı.
 
 | No | Dosya | Tür | Bayt | SHA-256 |
@@ -35,5 +35,6 @@ Site yeniden kurulumunda bunlar `naviar/care2-src/public/` altında yeniden yaz�
 | NC2-ARS-020 | `NAVIAR-CARE_SRC03_Proje-Dokumantasyonu_v1.0.docx` | SRC-03 (yaşlı desteği, ayrı hizmet) · proje dokümantasyonu | 68405 | `a7a543999d8d0af5…` |
 | NC2-ARS-021 | `naviar/care2-src/ (kaynak kod, 27 dosya)` | Kaynak kod · v6 teslimi (üretici, katalog, şema, testler, tasarım notları) | 415338 | `—…` |
 | NC2-ARS-022 | `NAVIAR-CARE-2-demo.html` | Geçmiş demo tasarımı · ayrı klasörden (arşiv rev. 2) | 21769 | `31edf417a62aad3c…` |
+| NC2-ARS-023 | `NAVIAR-CARE-002-Tasarim-v4.jpg` | Geçmiş kayıt · tasarım v4 görseli (ZIP paketinden) | 114035 | `b78fdd7da7e74f01…` |
 
 Tam SHA-256 değerleri `00_ARSIV-ENVANTERI.json` içinde.
