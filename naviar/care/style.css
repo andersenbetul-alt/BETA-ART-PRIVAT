@@ -173,6 +173,13 @@ button, input, select, textarea { font: inherit; }
   gap: 7px;
 }
 .nav-logo:hover { text-decoration: none; }
+/* Logo: aydınlık zeminde lacivert, koyu temada beyaz kopya (naviar-care-logo-white.svg) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .nav-logo img,
+  :root:not([data-theme="light"]) .footer-logo img { content: url("naviar-care-logo-white.svg"); }
+}
+:root[data-theme="dark"] .nav-logo img,
+:root[data-theme="dark"] .footer-logo img { content: url("naviar-care-logo-white.svg"); }
 .nav-logo-mark {
   width: 28px;
   height: 28px;

@@ -468,3 +468,21 @@ adımı (Vercel panel + GoDaddy DNS). Bu ortam naviarcare.com'u açamıyor
 
 Kalıcı kural CLAUDE.md'ye işlendi: naviar/care'de her iş bitince push →
 deploy → canlı doğrulama → görüntü.
+
+## 05.09.2026 — NaviarCare logosu: kullanıcının v0.2 QA panosu siteye girdi
+
+Kullanıcı chatgpt.site'de hazırlanmış iki logo QA panosu paylaştı ve "bu
+logoları kullan" dedi. Kaynak vektör alınamadı (adres vekil engelli), geometri
+panodan ölçülerek `brand/naviar/build-care.py` ile yeniden kuruldu
+(`brand/naviar/care/`, 8 SVG; ölçüm tablosu ve sapmalar `brand/naviar/README.md`).
+Siteye: 11 sayfada `naviar-care-logo.svg` yeni lockup, koyu temada beyaz
+kopya, ilk kez favicon. Eski altın-aksanlı master sistem silinmedi; ana marka
+kararı kullanıcıda. Panonun kendi durumu korunur: teknik PASS, hukuki
+tarama HOLD — tescil örneği değildir.
+
+Aynı gün kullanıcı CARE 2 demo sitesinin (naviar-care-2.andersen-betul.chatgpt.site,
+Norveççe/İngilizce/Türkçe, test rezervasyonu + ödeme simülasyonu, Stripe
+bağlı değil, e-posta gönderilmiyor) metinlerini yapıştırdı. O site bu depoda
+değil; buradaki `naviar/care` ayrı bir kod tabanı (İngilizce, 11 doktor,
+mailto formu). İki kopyadan hangisinin üretim sayılacağı arşiv onay
+listesinde bekliyor.

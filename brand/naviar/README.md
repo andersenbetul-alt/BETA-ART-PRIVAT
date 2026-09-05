@@ -69,6 +69,44 @@ Analitik hesap (iki gövde + diyagonal paralelkenar) 319.593 verir, ölçümle
 %0,2 içinde uyuşur. 16 px favicon ayrıca render edilip N'nin üç parçasının ve
 altın aksanın ayrıştığı doğrulanmıştır.
 
+## CARE v0.2 yeniden kurulumu (05.09.2026)
+
+Kullanıcı 05.09.2026'da iki QA panosu paylaştı ("NAVIAR CARE – STANDARD QA
+v0.2", "NAVIAR-001 / QA BOARD / v0.3 / REVISE") ve "bu logoları kullan"
+dedi. Bu ayrı bir sistemdir: **altın aksan yok**, tek renk lacivert-gri,
+geniş geometrik wordmark, diyagonalinde **elmas çentik** taşıyan kare N
+monogram, sağa hizalı CARE descriptor. Üretim: `python3 build-care.py` →
+`care/` (8 dosya). Yukarıdaki master sistem (altın N, dar wordmark) yerinde
+duruyor; hangi sistemin NAVIAR ana markası olacağı kararı kullanıcıda.
+
+**Kaynak vektör bu ortama ulaşmadı** (panolar chatgpt.site'de, vekil
+engelli; PNG dosya olarak da gelmedi). Geometri panodan piksel ölçümüyle
+yeniden kuruldu; bire bir kopya değil, yaklaşık yeniden çizimdir. Ölçümler:
+
+| Ölçü | Panodan | Üretilen |
+|---|---|---|
+| Wordmark en/boy | 740 / 82 px ≈ 9,0:1 | 9,29:1 |
+| Wordmark stroke | ≈ 20 / 82 = %24 | %24 |
+| Monogram | 178 × 178 px, kare | 100 × 100 birim |
+| Monogram gövde | ≈ %22 | %22 |
+| Elmas çentik | ≈ 28 px köşeden köşeye = %16 | %14 (diyagonal dik kalınlığı %19; kenar payı için) |
+| CARE cap | 45 / 82 = %55 | %55 |
+| Renk | pano: koyu gri-lacivert, CARE bir ton açık | `#2A3847` / `#4A5B6C` (gözle tahmin) |
+| N çentiği (wordmark) | ince, diyagonale paralel yarık | 0,06H genişlik, 0,42H uzunluk |
+| A çubuğu | ayaklara değmeyen kısa çubuk | 0,28W, 0,76H–0,90H |
+
+Panoda yazan durum aynen korunur: **"Technical representation PASS / Legal
+clearance HOLD"**, v0.3 panosunda "Candidate artwork only — not a filing
+specimen and not legally cleared", "Figurative search: PENDING". Yani
+hukuki tarama yapılmamıştır; bu dosyalar başvuru örneği değildir.
+`care/naviar-care-euipo-250.svg` yalnızca 250 px görünürlük provasıdır;
+`scripts/marka-tescil.mjs` zarf denetimi CARE için çalıştırılmadı.
+
+Sitede kullanım: `naviar/care/naviar-care-logo.svg` (= `care/naviar-care-lockup.svg`),
+koyu temada `naviar-care-logo-white.svg` (CSS `content:url()` ile),
+`favicon.svg` (= `care/naviar-care-favicon.svg`). 16 px'te elmas kapanır;
+pano da 16 px için "special master required" diyor, üretilmedi.
+
 ## Renkler
 
 | Rol | Renk | Hex |
