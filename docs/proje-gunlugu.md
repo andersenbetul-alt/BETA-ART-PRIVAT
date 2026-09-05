@@ -486,3 +486,35 @@ bağlı değil, e-posta gönderilmiyor) metinlerini yapıştırdı. O site bu de
 değil; buradaki `naviar/care` ayrı bir kod tabanı (İngilizce, 11 doktor,
 mailto formu). İki kopyadan hangisinin üretim sayılacağı arşiv onay
 listesinde bekliyor.
+
+## 05.09.2026 (gece) — NAVIAR CARE 2 sitesi kuruldu ve canlıya alındı
+
+Kullanıcı chatgpt.site'deki CARE 2 demo sitesinin metinlerini (Norveççe) ve
+ana konsept belgesini (`docs/naviar/NAVIAR-MASTER-2026-001_DOC-KONSEPT-WEB-01_v1.0.html`,
+kullanıcı yüklemesi) paylaşıp "bu bilgileri kullanarak web sayfasını
+yapacaksın" dedi. Yeni site `naviar/care2/`: 8 sayfa (index, journey,
+clinicians, languages, about, professionals, booking, privacy), üç dil
+(NO/EN/TR, `i18n.js` 270 anahtar × 3), 11 örnek profil (`doctors.js`), 113
+dillik katalog (`langs.js`, eski `care/languages.html`'den çıkarıldı), test
+rezervasyonu (Oslo saatiyle 20 dk'lık örnek saatler — sabit tarih yok, her gün
+yeniden üretilir; kaydet/taşı/iptal/e-posta taslağı/ödeme simülasyonu, hepsi
+localStorage), ölçüm onayı (yalnız tercih saklanır, ölçüm bağlı değil),
+acil 113 / 116 117 şeridi ve kutusu her sayfada. Tasarım konsept belgesi
+§04'e göre: koyu yeşil tonlar, serif başlık, sade gövde; logo kullanıcının
+v0.2 panosundan. Sunucu, hesap, e-posta, Stripe yok — hepsi sitede açıkça
+"demo" olarak yazılı.
+
+Doğrulama: `naviar/care2/.claude/skills/run-naviar-care2/` (smoke 39/39,
+görüntüler NO/EN/TR, koyu tema, mobil menü). `naviar/vercel-care.json`
+artık `care2/` kopyalıyor → naviarcare projesi CARE 2'yi yayınlıyor. Eski
+`naviar/care` (İngilizce, "dakikalar içinde doktor" vaatli) depoda duruyor,
+silinmedi; geri almak için tarifteki `care2` → `care`.
+
+Vercel notu: proje bu gece duraklatılmış bulundu (canlı 503
+`DEPLOYMENT_PAUSED`, yeni dağıtım `BLOCKED`); `unpause_project` ile açıldı,
+dağıtım READY. Duraklatma nedeni (harcama sınırı mı, elle mi) bilinmiyor.
+
+CARE 2'nin kendi kod tabanı (Cloudflare Worker + D1, 42 profil, 27 sayfa,
+sunucu taraflı rezervasyon) bu depoda değil; buradaki site o konseptin
+sunucusuz, statik yeniden kurulumudur. Konsept belgesindeki "giriş
+gereksinimi", sunucu tarafı çakışma kontrolü ve gerçek adaptörler burada yok.

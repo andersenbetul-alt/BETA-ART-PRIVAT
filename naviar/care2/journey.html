@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>Forbered samtalen — NAVIAR CARE 2</title>
+<meta name="description" content="NAVIAR CARE 2 — tjenestedemo. Ingen medisinsk time kan bestilles.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="journey">
+<a class="skip-link" href="#main" data-i18n="skip">Hopp til innhold</a>
+<div class="demo-bar"><div class="wrap"><span class="tag" data-i18n="demo.tag">Tjenestedemo</span><span data-i18n="demo.text">Profiler og timer er eksempler. Ingen medisinsk time kan bestilles.</span><a href="about.html#status" data-i18n="demo.link">Om demoen</a></div></div>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html"><img src="naviar-care-logo.svg" alt="NAVIAR CARE"><span class="v" aria-label="versjon 2">2</span></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span data-i18n="nav.menu">Meny</span></button>
+  <nav class="nav" id="nav" aria-label="Hovedmeny"><a href="booking.html" data-page="booking" data-i18n="nav.booking">Testbestilling</a><a href="journey.html" data-page="journey" data-i18n="nav.journey">Forbered samtalen</a><a href="clinicians.html" data-page="clinicians" data-i18n="nav.clinicians">Behandlere</a><a href="languages.html" data-page="languages" data-i18n="nav.languages">Språk</a><a href="about.html" data-page="about" data-i18n="nav.about">Om tjenesten</a></nav>
+  <div class="lang-sel"><label class="sr-only" for="lang-select" data-i18n="nav.lang" hidden>Nettsidens språk</label><select id="lang-select" data-i18n-label="nav.lang"></select></div>
+</div></header>
+<div class="emg"><div class="wrap"><strong data-i18n="emg.title">Helsehjelp i Norge</strong><a href="tel:113" data-i18n="emg.acute">Akutt: 113</a><span data-i18n="emg.gp">Fastlegen utilgjengelig og hjelpen kan ikke vente?</span><a href="tel:116117" data-i18n="emg.gpnum">116 117</a></div></div>
+<main id="main">
+
+<section class="hero"><div class="wrap">
+  <p class="eyebrow" data-i18n="jr.eyebrow">Forbered samtalen</p>
+  <h1 data-i18n="jr.h">Mer rom for det du vil si.</h1>
+  <p class="lead" data-i18n="jr.lead">Utforsk et ferdigskrevet eksempel. Ingen personlige symptomer, medisinsk vurdering eller bestilling.</p>
+</div></section>
+<section class="section alt"><div class="wrap" id="journey">
+  <ol class="stepper"><li data-i18n="jr.step1">Eksempelet</li><li data-i18n="jr.step2">Språk og støtte</li><li data-i18n="jr.step3">Spørsmål</li><li data-i18n="jr.step4">Oppsummering</li></ol>
+  <div class="panel jpanel" data-step="1">
+    <p class="eyebrow" data-i18n="jr.s1.eyebrow">Et oppdiktet eksempel</p>
+    <h2 data-i18n="jr.s1.h">Møt Alex.</h2>
+    <p data-i18n="jr.s1.t"></p>
+    <div class="quote"><p class="q" data-i18n="jr.s1.q"></p></div>
+    <p class="small muted" style="margin-top:12px" data-i18n="jr.s1.note"></p>
+    <div class="actions"><button type="button" class="btn" data-act="next" data-i18n="jr.s1.btn">Start eksemplet</button></div>
+  </div>
+  <div class="panel jpanel" data-step="2" hidden>
+    <h2 data-i18n="jr.s2.h"></h2><p data-i18n="jr.s2.t"></p>
+    <div class="opts"><label class="opt"><input type="radio" name="jlang" value="o1"><span data-i18n="jr.s2.o1"></span></label><label class="opt"><input type="radio" name="jlang" value="o2"><span data-i18n="jr.s2.o2"></span></label><label class="opt"><input type="radio" name="jlang" value="o3"><span data-i18n="jr.s2.o3"></span></label></div>
+    <div class="actions"><button type="button" class="btn ghost" data-act="back" data-i18n="jr.back">Tilbake</button><button type="button" class="btn" data-act="next" data-for="2" data-i18n="jr.next" disabled>Neste</button></div>
+  </div>
+  <div class="panel jpanel" data-step="3" hidden>
+    <h2 data-i18n="jr.s3.h"></h2><p data-i18n="jr.s3.t"></p>
+    <div class="opts"><label class="opt"><input type="checkbox" name="jq" value="q1"><span data-i18n="jr.s3.q1"></span></label><label class="opt"><input type="checkbox" name="jq" value="q2"><span data-i18n="jr.s3.q2"></span></label><label class="opt"><input type="checkbox" name="jq" value="q3"><span data-i18n="jr.s3.q3"></span></label><label class="opt"><input type="checkbox" name="jq" value="q4"><span data-i18n="jr.s3.q4"></span></label></div>
+    <div class="actions"><button type="button" class="btn ghost" data-act="back" data-i18n="jr.back">Tilbake</button><button type="button" class="btn" data-act="next" data-i18n="jr.next">Neste</button></div>
+  </div>
+  <div class="panel jpanel summary" data-step="4" hidden>
+    <h2 data-i18n="jr.s4.h"></h2>
+    <dl><dt data-i18n="jr.s4.lang"></dt><dd id="sum-lang">—</dd><dt data-i18n="jr.s4.qs"></dt><dd><ul id="sum-qs"></ul></dd></dl>
+    <p class="notice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 4.3 2.6 18a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 4.3a2 2 0 0 0-3.4 0Z"/></svg><span data-i18n="jr.s4.next"></span></p>
+    <div class="actions"><button type="button" class="btn ghost" data-act="back" data-i18n="jr.back">Tilbake</button><button type="button" class="btn ghost" data-act="restart" data-i18n="jr.restart">Start på nytt</button><a class="btn" href="booking.html" data-i18n="nav.booking">Testbestilling</a></div>
+  </div>
+</div></section>
+<section class="section"><div class="wrap two">
+  <div><h2 data-i18n="jr.pace.h">Du styrer tempoet.</h2><p data-i18n="jr.pace.t"></p></div>
+  <p class="notice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 4.3 2.6 18a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 4.3a2 2 0 0 0-3.4 0Z"/></svg><span data-i18n="jr.pace.n"></span></p>
+</div></section>
+
+<section class="section"><div class="wrap"><div class="emg-box">
+  <h2 data-i18n="emg.box.title">Trenger du helsehjelp nå?</h2>
+  <p data-i18n="emg.box.text">I Norge: Ring 113 ved medisinsk nød. Ring 116 117 når fastlegen er utilgjengelig og hjelpen ikke kan vente. I andre land: bruk det lokale nødnummeret ved en nødsituasjon. Ikke vent på denne demoen.</p>
+  <p><a href="https://www.helsenorge.no/en/help-services-in-the-municipalities/out-of-hours-medical-service/" rel="noopener" target="_blank" data-i18n="emg.box.link">Helsenorge — offisiell informasjon</a></p>
+  <div class="tels"><a href="tel:113">113</a><a href="tel:116117">116 117</a></div>
+</div></div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><img src="naviar-care-logo.svg" alt="NAVIAR CARE"><p data-i18n="foot.tagline">For ordene dine. Og veien videre.</p></div>
+    <div><h4 data-i18n="foot.explore">Utforsk</h4><ul>
+      <li><a href="journey.html" data-i18n="foot.journey">Eksempel på forberedelse</a></li>
+      <li><a href="clinicians.html" data-i18n="foot.clinicians">Eksempelprofiler</a></li>
+      <li><a href="languages.html" data-i18n="foot.languages">Språk og tolk</a></li></ul></div>
+    <div><h4 data-i18n="foot.about">Om tjenesten</h4><ul>
+      <li><a href="about.html" data-i18n="foot.status">Idéen og tjenestestatus</a></li>
+      <li><a href="professionals.html" data-i18n="foot.pro">For helsepersonell</a></li>
+      <li><a href="privacy.html" data-i18n="foot.privacy">Personvern</a></li></ul></div>
+  </div>
+  <div class="foot-bottom">
+    <span>© 2026 NAVIAR CARE 2 · <span data-i18n="foot.legal">Ingen akuttjeneste. Ingen medisinsk vurdering i denne demoen.</span></span>
+    <span><a href="booking.html" data-i18n="foot.booking">Testbestilling</a> · <button type="button" id="measure-again" data-i18n="foot.measure">Endre målevalg</button></span>
+  </div>
+</div></footer>
+<div class="consent" id="consent" role="dialog" aria-labelledby="consent-h" hidden>
+  <h2 id="consent-h" data-i18n="consent.title">Vil du hjelpe oss å forbedre siden?</h2>
+  <p data-i18n="consent.text">Med ditt valg kan vi telle besøk og engasjement på forsiden, om-siden og språksiden. Vi måler ikke søk, profiler, forberedelser eller bestillinger. Valget er frivillig og kan endres nederst på siden.</p>
+  <div class="actions"><button type="button" class="btn ghost" id="consent-no" data-i18n="consent.no">Ikke tillat måling</button><button type="button" class="btn" id="consent-yes" data-i18n="consent.yes">Tillat måling</button></div>
+</div>
+<script src="i18n.js"></script>
+<script src="doctors.js"></script>
+<script src="langs.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
