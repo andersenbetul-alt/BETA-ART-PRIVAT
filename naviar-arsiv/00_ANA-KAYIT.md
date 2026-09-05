@@ -37,6 +37,10 @@ kayıt güncellenir. Buradaki hiçbir kod bu depoda çalıştırılmaz.
 | BA-006 | 02 | `teslim/NAVIAR-CARE-001-WEB-01_DOC-010_FINAL-TESLIM_v2.4.html` | Son teslim kaydı v2.4.0 (36 test; hizmet/ödeme/e-posta kapalı) |
 | BA-007 | 02 | `teslim/NAVIAR-CARE_Web-Design-Platform-Studio_2026-09-05.md` | Platform karşılaştırması + sürüm 3/4 kayıtları |
 | BA-008 | 02 | `README.md` / `DOGRULAMA.md` / `KODU-CALISTIRMA.md` | Kaynak ağacın kendi belgeleri |
+| BA-027 | 02 | `teslim/NAVIAR-CARE-001-WEB-01_DOC-012_TUM-BELGELER_v1.0.html` | 20 belge + 10 tarihsel kayıt (tek dosya) |
+| BA-028 | 02 | `teslim/NAVIAR-CARE-001-WEB-01_BELGE-LISTESI_v1.0.csv` | DOC-012 paketinin numaralı listesi |
+| BA-029 | 02 | `kaynak-v2.4.0/` | Tam kaynak v2.4.0 (rev 2d1ea68e; 62 dosya, SHA-256 62/62 doğrulandı) |
+| BA-030 | 02 | `kaynak-v2.4.0/naviar-care/assets/` | hverdag.png (fotoğraf; lisans kaydı YOK) + naviar-care-v03.svg (kucaklaşma-kalp logo) |
 | BA-009 | 03 | `docs/CONCEPT.md` | Stüdyo prototip konsepti |
 | BA-010 | 03 | `docs/PLATFORM-DECISION.md` | Platform kararı |
 | BA-011 | 03 | `docs/DECISION-LOG.md` | Karar günlüğü |
@@ -67,6 +71,6 @@ sayılır; tam liste için `git ls-files naviar-arsiv/`.
 | P-011 zip'leri + raporları (COOKIE1 v0.3.0, STUDIO v0.4.0) | FILE-007…012 | 06 (açılacak) |
 | `NAVIAR-CARE-001_master_candidate_v0.3.svg` | FILE-016 | 03/brand |
 | CHAT-004 üçlüsü (Profesyonel-Surum_Teslim.md, Icerik CSV, Kurulum-ve-Kabul.md) | FILE-020…022 | 02/teslim |
-| KAYNAK-KOD zip'leri (v1.0, v2.2, v2.4) | FILE-014/019 + DOC-010 | 02 |
+| KAYNAK-KOD zip'leri v1.0 ve v2.2 (v2.4.0 GELDİ → BA-029) | FILE-014/019 | 02 |
 | CARE 2: build_content.py, build_operations.py, db/schema.ts, drizzle göçü, dist/ | 04 ARSIV-NOTU | 04 |
-| Kadın fotoğrafı (dosya + köken/lisans) | — | 04 veya varlık kaydı |
+| Kadın fotoğrafının köken/lisans kaydı (dosya geldi: BA-030) | — | 02 |

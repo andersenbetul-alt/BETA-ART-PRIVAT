@@ -62,6 +62,33 @@ buradaki kod arşivi (inceleme sürümü 5 tabanı, 255ee9b2) ile sitenin
 sürüm numaraları AYRI sayaçlardır; belge kendi içinde açıklıyor.
 DOC-010 v2.4 ile birlikte okunmalı.
 
+## v2.4.0 tam kaynak paketi (05.09.2026 gece — kaynak-v2.4.0/)
+
+`KAYNAK-KOD_v2.4.0.zip` teslim edildi ve `kaynak-v2.4.0/` altına
+açıldı: uygulama 2.4.0, kaynak sürümü
+`2d1ea68e47568086462c3ed304f1479010bb0222`, 62 takipli dosya +
+OKU-BENI + KAYNAK-ENVANTERI.csv + KOD-OKUYUCU.html. **Açılan her dosya
+zip'in kendi SHA-256 envanteriyle doğrulandı: 62/62 doğru.** Paketin
+notu: testler 37/37; gerçek sağlayıcı/cihaz/erişilebilirlik kabulü ayrı.
+
+Dikkat: v2.4.0 ağacı, buradaki eski inceleme-sürümü-5 tabanından FARKLI
+bir mimaridir (React/Vinext değil; `src/*.js` + worker + Vite). İki
+ağaç bilerek yan yana korunur, birleştirilmez.
+
+İçindeki iki varlık:
+- `naviar-care/assets/naviar-care-v03.svg` — **kucaklaşma-kalp hibrit
+  logo** ("embrace-heart around an N bridge"). Bu, beklenen çentikli-N
+  master v0.3 DEĞİLDİR (o hâlâ FILE-016'da, gelmedi); eski site
+  logosunun kaynak dosyasıdır.
+- `naviar-care/assets/hverdag.png` — sitedeki kadın fotoğrafı
+  (1536×1024 PNG). Dosya artık depoda; ancak KÖKENİ VE LİSANSI hâlâ
+  kayıtsız — kanonik sitede kullanılmadan önce tamamlanmalı.
+
+`teslim/`e eklenenler: `DOC-012_TUM-BELGELER_v1.0.html` (20 yeni belge
++ 10 tarihsel kaydın tek dosyalık paketi) ve `BELGE-LISTESI_v1.0.csv`.
+Paketin tekil `01_BELGELER/*.md` dosyaları ayrıca yüklenmedi; içerik
+birleşik HTML'de korunuyor.
+
 ## Adlandırma notları
 
 - Dosyalar yükleme adlarındaki hash önekleri atılarak KODU-CALISTIRMA
