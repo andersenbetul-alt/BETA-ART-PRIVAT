@@ -54,6 +54,16 @@ hjelpen, godkjenner besøket" netliği eklenebilir).
 | 15 | Üç değer kartı: "Du bestemmer / Prisen først / Mennesker, nær deg" — fiyat teklifi avtale onayından ÖNCE gelir | Değerlendir — "Prisen først" ilkesi breakdown'daki fiyat-onay adımıyla örtüşüyor; kanonikte metin olarak var ama kart düzeyinde görünür değil |
 | 16 | "Tjenesteområdet må avklares før ekte bestillinger åpner" — kategori bölümünün altında dürüst sınır notu | Taşıma gerekmez — kanonikte Pilotstatus + "Drammen og omegn" bunu zaten daha somut söylüyor |
 
+## Kaynak arşivi (05.09 gece)
+
+Kullanıcı SRC-03'ün tam kaynak ağacını bu oturuma yükledi; olduğu gibi
+`naviar-care/src03-arsiv/` altında arşivlendi (teknik özet ve adlandırma
+notları: `src03-arsiv/ARSIV-NOTU.md`). Kaynak temel: özel inceleme
+sürümü 5, `255ee9b2f98e5cfab344ede26f876908d0ab6877`. Tek dosyalık
+tasarım önizlemesi ve 23 bölümlük tam konsept belgesi
+`src03-arsiv/teslim/` içinde. Kod ChatGPT Sites'a bağlıdır ve bu depoda
+çalıştırılmaz; arşiv, karşılaştırma ve taşıma kararlarına dayanaktır.
+
 ## Karar bekleyenler (sahibi: Betul)
 
 1. Ton: kurumsal mı, sıcak mı, yoksa iki giriş yolu mu?
